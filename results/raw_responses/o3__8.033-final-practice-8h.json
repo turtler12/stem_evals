@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-8h",
+  "full_response": "First recall the relation between the Kruskal\u2013Szekeres coordinates (U , V) and the Schwarzschild coordinates (t , r) (we set G=c=1 and write M instead of GM):\n\n1.  Tortoise coordinate\n     r_* = r + 2M ln| r/2M \u2013 1 | .\n\n2.  Eddington\u2013Finkelstein null coordinates  \n     u = t \u2013 r_*,     v = t + r_* .\n\n3.  Kruskal coordinates  \n     U = \u03f5_U e^{-u/4M},     V = \u03f5_V e^{v/4M},     \u03f5_U , \u03f5_V = \u00b11 ,\n\n   chosen so that the product  \n\n     UV = \u2013( r/2M \u2013 1 ) e^{r/2M}                (\u2605)\n\n   is valid in every region.\n\nExterior points have r > 2M, so r/2M \u2013 1 > 0 and therefore (\u2605) gives\n\n                               UV < 0 .                                        (1)\n\nMoreover, as r \u2192 \u221e one finds\n\n                    UV \u2243 \u2013(r/2M) e^{r/2M}  \u2192  \u2013\u221e ;                             (2)\n\nso spatial infinity corresponds to the part of the (U , V)-plane where the product UV is large and negative.\n\nBecause UV<0, the signs of U and V must be opposite.  There are therefore two and only two ways of satisfying (1) and (2):\n\n\u2022  U < 0 ,\u2003V > 0\u2003: \u201cright-hand\u201d exterior (called Region I).  \n   Taking r \u2192 \u221e at fixed, finite t gives  \n   U \u2192 \u2013\u221e , V \u2192 +\u221e with UV \u2192 \u2013\u221e .\n\n\u2022  U > 0 ,\u2003V < 0\u2003: \u201cleft-hand\u201d exterior (called Region III).  \n   Again r \u2192 \u221e gives  \n   U \u2192 +\u221e , V \u2192 \u2013\u221e with UV \u2192 \u2013\u221e .\n\nThese two oppositely signed quadrants are the two asymptotically flat ends of the maximally extended Schwarzschild geometry\u2014the two mouths of the Einstein\u2013Rosen bridge (wormhole).\n\n\\boxed{\\text{Asymptotic region I: } U<0,\\; V>0 \\quad(\\;r\\to\\infty,\\;UV\\to-\\infty\\;)}\n\\boxed{\\text{Asymptotic region III: } U>0,\\; V<0 \\quad(\\;r\\to\\infty,\\;UV\\to-\\infty\\;)}",
+  "extracted_answer": "\\text{Asymptotic region III: } U>0,\\; V<0 \\quad(\\;r\\to\\infty,\\;UV\\to-\\infty\\;)",
+  "latency_seconds": 41.17,
+  "input_tokens": 845,
+  "output_tokens": 2726,
+  "timestamp": "2026-02-21T22:19:52Z",
+  "confidence": null,
+  "error": null
+}

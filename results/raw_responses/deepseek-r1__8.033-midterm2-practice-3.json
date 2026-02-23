@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-midterm2-practice-3",
+  "full_response": "The rocket starts from rest in an inertial frame. Each burst gives it a velocity increment \\(u\\) in the inertial frame where it is at rest just before firing. After \\(n\\) collinear bursts, the final speed relative to the starting frame is found by repeatedly applying the relativistic velocity addition formula.\n\nDefine the rapidity \\(\\phi_n\\) such that \\(v_n = c \\tanh(\\phi_n)\\). Each burst adds a rapidity \\(\\eta = \\operatorname{arctanh}(u/c)\\). After \\(n\\) bursts, \\(\\phi_n = n\\eta\\), so\n\\[\nv_n = c \\tanh\\left(n \\operatorname{arctanh}\\left(\\frac{u}{c}\\right)\\right).\n\\]\nThis can also be written as\n\\[\nv_n = c \\frac{(1+u/c)^n - (1-u/c)^n}{(1+u/c)^n + (1-u/c)^n}.\n\\]\n\n\\boxed{v_n = c \\tanh\\left(n \\operatorname{arctanh}\\left(\\frac{u}{c}\\right)\\right)}\n\nConfidence: 100%",
+  "extracted_answer": "v_n = c \\tanh\\left(n \\operatorname{arctanh}\\left(\\frac{u}{c}\\right)\\right)",
+  "latency_seconds": 58.07,
+  "input_tokens": 877,
+  "output_tokens": 2632,
+  "timestamp": "2026-02-23T10:34:34Z",
+  "confidence": 100,
+  "error": null
+}

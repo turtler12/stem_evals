@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-ps9-3",
+  "full_response": "We work in units with c = 1 (as in 8.033), and we use the (+ + + \u2013) metric convention employed on the formula sheet, where\n\nP^a = (E, p_x, p_y, p_z),\u2003\u2003P^a P_a = \u2013E^2 + |p|^2 = \u2013m^2 .\u2003(1)\n\nGiven\nE = \u03b3 m\u2003(\u03b3 \u2261 1/\u221a{1\u2013v\u00b2}),\u2003the motion is purely along the x\u2081\u2013axis, and the particle is receding (v > 0).\n\n1. Spatial momentum component\nFor one\u2013dimensional motion,\n\np_x = \u03b3 m v.\u2003(2)\n\nWe are asked to eliminate v.  From \u03b3 = 1/\u221a{1\u2013v\u00b2} \u21d2 v\u00b2 = 1 \u2013 1/\u03b3\u00b2 \u21d2 v = +\u221a{1 \u2013 1/\u03b3\u00b2} (positive sign because the particle moves in +x\u2081).\n\nInsert this into (2):\n\np_x = \u03b3 m \u221a{1 \u2013 1/\u03b3\u00b2}.\u2003(3)\n\n2. Assemble the 4-momentum\nThere is no motion in y or z directions, so p_y = p_z = 0.\n\nHence\n\nP^\u03bc = (E, p_x, 0, 0)\n     = (\u03b3 m, \u03b3 m \u221a{1 \u2013 1/\u03b3\u00b2}, 0, 0).\u2003(4)\n\nThis satisfies the mass\u2013shell condition:\n\n\u2013(\u03b3 m)\u00b2 + (\u03b3 m)\u00b2(1 \u2013 1/\u03b3\u00b2) = \u2013m\u00b2. \u2713\n\n\\boxed{P^{\\mu} = \\bigl(\\, \\gamma m,\\; \\gamma m\\sqrt{1-\\tfrac{1}{\\gamma^{2}}},\\; 0,\\; 0 \\bigr)} \n\nConfidence: 87%",
+  "extracted_answer": "P^{\\mu",
+  "latency_seconds": 8.11,
+  "input_tokens": 895,
+  "output_tokens": 744,
+  "timestamp": "2026-02-23T00:55:46Z",
+  "confidence": 87,
+  "error": null
+}

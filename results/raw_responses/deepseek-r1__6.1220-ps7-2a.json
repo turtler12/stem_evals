@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "6.1220-ps7-2a",
+  "full_response": "Given the payoff matrix and the scenario where Droberts is greedy and the first mate mutinies, we examine whether either player has an incentive to unilaterally deviate:\n\n- If Droberts switches to generous while the first mate still mutinies, his payoff increases from 0 to 2, so he wants to switch (A is true).\n- If the first mate switches to not mutinying while Droberts remains greedy, his payoff decreases from 3 to 0, so he does not want to switch (B is false).\n\nThus, only statement A is correct.\n\n\\boxed{A}\nConfidence: 100%",
+  "extracted_answer": "A",
+  "latency_seconds": 26.67,
+  "input_tokens": 516,
+  "output_tokens": 1203,
+  "timestamp": "2026-02-23T11:05:04Z",
+  "confidence": 100,
+  "error": null
+}

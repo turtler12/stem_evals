@@ -1,0 +1,12 @@
+{
+  "model_name": "gemini-2.5-flash",
+  "question_id": "8.033-final-practice-1a",
+  "full_response": "One significant way in which Newtonian gravity fails to predict empirical results is in explaining the **anomalous precession of Mercury's perihelion**.\n\nNewtonian gravity, when applied to the solar system, accounts for the gravitational interactions between the Sun and all planets. Calculations based on this framework, including the perturbative effects of other planets (like Jupiter and Venus), predict a certain amount of precession for Mercury's perihelion (the point in its orbit closest to the Sun).\n\nHowever, observational astronomy revealed an additional, unexplained precession of approximately 43 arcseconds per century. This anomaly could not be resolved by refining Newtonian calculations or by postulating the existence of another planet (like Vulcan, which was searched for but never found).\n\nGeneral Relativity, published by Einstein in 1915, successfully and precisely predicted this anomalous 43 arcseconds per century precession as a direct consequence of the curvature of spacetime near the Sun, thereby resolving a long-standing discrepancy between theory and observation.\n\n\\boxed{Newtonian gravity fails to explain the anomalous precession of Mercury's perihelion, specifically an excess precession of approximately 43 arcseconds per century, which is accurately predicted by General Relativity.}\n\nConfidence: 100%",
+  "extracted_answer": "Newtonian gravity fails to explain the anomalous precession of Mercury's perihelion, specifically an excess precession of approximately 43 arcseconds per century, which is accurately predicted by General Relativity.",
+  "latency_seconds": 4.01,
+  "input_tokens": 885,
+  "output_tokens": 252,
+  "timestamp": "2026-02-21T22:21:42Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps10-6",
+  "full_response": "We prove that for a timelike geodesic parametrized by proper time \\(\\tau\\), the four-velocity \\(U^a = dx^a/d\\tau\\) satisfies \\(U^a U_a = -1\\).\n\n1. **Geodesic equation**: For an affine parameter \\(\\tau\\), the geodesic equation is  \n   \\[\n   U^a \\nabla_a U^b = 0.\n   \\]\n\n2. **Constancy of the norm**: Consider the scalar \\(S = U^a U_a\\). Its derivative along the geodesic is  \n   \\[\n   \\frac{dS}{d\\tau} = U^b \\nabla_b (U^a U_a) = 2 U_a U^b \\nabla_b U^a.\n   \\]  \n   Using the geodesic equation \\(U^b \\nabla_b U^a = 0\\), we obtain \\(dS/d\\tau = 0\\). Thus, \\(U^a U_a\\) is constant along the geodesic.\n\n3. **Proper time parametrization**: For a timelike worldline, proper time \\(\\tau\\) is defined such that  \n   \\[\n   d\\tau^2 = -ds^2 = -g_{ab} dx^a dx^b.\n   \\]  \n   This implies  \n   \\[\n   g_{ab} \\frac{dx^a}{d\\tau} \\frac{dx^b}{d\\tau} = -1,\n   \\]  \n   or equivalently \\(U^a U_a = -1\\) at any point.\n\n4. Since \\(U^a U_a\\) is constant, if it equals \\(-1\\) at one point (by choice of proper time), it remains \\(-1\\) everywhere along the geodesic.\n\nThus, for a timelike geodesic parametrized by proper time, \\(U^a U_a = -1\\).\n\n\\boxed{U^a U_a = -1}\nConfidence: 100%",
+  "extracted_answer": "U^a U_a = -1",
+  "latency_seconds": 54.0,
+  "input_tokens": 834,
+  "output_tokens": 2787,
+  "timestamp": "2026-02-23T03:50:55Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-sonnet-4",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "I need to define a null vector in the context of special and general relativity.\n\nLet me work through this step by step.\n\n**Step 1: Understanding vectors in spacetime**\n\nIn relativity, we work with 4-vectors in spacetime. Any 4-vector $V^a$ has components $(V^0, V^1, V^2, V^3)$ or in coordinate notation $(V^t, V^x, V^y, V^z)$.\n\n**Step 2: The spacetime interval and vector magnitude**\n\nThe magnitude squared of a 4-vector is given by the spacetime interval:\n$$V^a V_a = g_{ab} V^a V^b$$\n\nIn flat spacetime (special relativity), with the metric signature $(-,+,+,+)$:\n$$V^a V_a = -(V^0)^2 + (V^1)^2 + (V^2)^2 + (V^3)^2$$\n\nIn more familiar notation:\n$$V^a V_a = -(V^t)^2 + (V^x)^2 + (V^y)^2 + (V^z)^2$$\n\n**Step 3: Classification of vectors**\n\nBased on the sign of $V^a V_a$, vectors are classified as:\n- **Timelike**: $V^a V_a < 0$ (negative)\n- **Spacelike**: $V^a V_a > 0$ (positive)  \n- **Null (or lightlike)**: $V^a V_a = 0$ (zero)\n\n**Step 4: Definition of null vector**\n\nA null vector is a 4-vector $V^a$ such that:\n$$V^a V_a = 0$$\n\nThis means:\n$$g_{ab} V^a V^b = 0$$\n\n**Step 5: Physical interpretation**\n\nNull vectors represent the worldlines of massless particles (like photons) that travel at the speed of light. The tangent vector to a light ray's worldline is always null.\n\nFor a null vector in flat spacetime:\n$$-(V^t)^2 + (V^x)^2 + (V^y)^2 + (V^z)^2 = 0$$\n\nThis implies:\n$$|V^t| = \\sqrt{(V^x)^2 + (V^y)^2 + (V^z)^2}$$\n\nwhich is consistent with light traveling at speed $c = 1$ (in natural units).\n\n\\boxed{A null vector is a 4-vector V^a such that V^a V_a = g_{ab} V^a V^b = 0, representing the worldline of a massless particle traveling at the speed of light.}\n\nConfidence: 95%",
+  "extracted_answer": "A null vector is a 4-vector V^a such that V^a V_a = g_{ab} V^a V^b = 0, representing the worldline of a massless particle traveling at the speed of light.",
+  "latency_seconds": 12.53,
+  "input_tokens": 941,
+  "output_tokens": 669,
+  "timestamp": "2026-02-21T22:13:15Z",
+  "confidence": 95,
+  "error": null
+}

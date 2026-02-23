@@ -1,0 +1,12 @@
+{
+  "model_name": "o4-mini",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "We work in the rest frame of the Higgs boson.  Let its 4-momentum be  \nP_h^\u03bc = (E_h/c, 0, 0, 0) with E_h = m_h c^2 = 125 GeV.  After decay into two photons, label their 4-momenta as  \nk_1^\u03bc = (E_1/c, p\u20d7_1),   k_2^\u03bc = (E_2/c, p\u20d7_2),  \nwith E_i = |p\u20d7_i| c since photons are massless.\n\nBy 4-momentum conservation:  \nP_h^\u03bc = k_1^\u03bc + k_2^\u03bc.  \nBreaking into energy and 3-momentum parts gives  \n(1) Energy:\u2003E_1 + E_2 = E_h = m_h c^2,  \n(2) Momentum:\u2003p\u20d7_1 + p\u20d7_2 = 0  \u21d2  p\u20d7_2 = \u2212p\u20d7_1,  so |p\u20d7_1| = |p\u20d7_2|.\n\nBut for each photon, E_i = |p\u20d7_i| c, so from (2) we get E_1 = E_2.  Plugging into (1):  \n2 E_1 = m_h c^2  \u21d2  E_1 = E_2 = (m_h c^2)/2 = (125 GeV)/2 = 62.5 GeV.\n\nThus in the Higgs rest frame each photon has energy 62.5 GeV.  \n\nFinal Answer:  \n\\boxed{E_{\\gamma1} = E_{\\gamma2} = 62.5\\;\\text{GeV}}  \n\nConfidence: 100%",
+  "extracted_answer": "E_{\\gamma1} = E_{\\gamma2} = 62.5\\;\\text{GeV}",
+  "latency_seconds": 6.65,
+  "input_tokens": 883,
+  "output_tokens": 858,
+  "timestamp": "2026-02-21T22:20:50Z",
+  "confidence": 100,
+  "error": null
+}

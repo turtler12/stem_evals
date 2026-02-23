@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-midterm1-practice-1c",
+  "full_response": "The velocity of the rocket in frame \\(R'\\) is found using the relativistic velocity addition formula. Given that frame \\(R'\\) moves with velocity \\(v = 3c/5\\) relative to \\(R\\) along the \\(x\\)-axis, and the rocket moves with velocity \\(u = 4c/5\\) in \\(R\\), the velocity \\(u'\\) in \\(R'\\) is:\n\n\\[\nu' = \\frac{u - v}{1 - \\frac{uv}{c^2}} = \\frac{\\frac{4c}{5} - \\frac{3c}{5}}{1 - \\frac{(\\frac{4c}{5})(\\frac{3c}{5})}{c^2}} = \\frac{\\frac{c}{5}}{1 - \\frac{12}{25}} = \\frac{\\frac{c}{5}}{\\frac{13}{25}} = \\frac{c}{5} \\cdot \\frac{25}{13} = \\frac{5c}{13}.\n\\]\n\nThe rocket's rest-frame length \\(L_0\\) is not needed for this calculation.\n\n\\boxed{\\frac{5c}{13}}\n\nConfidence: 100%",
+  "extracted_answer": "\\frac{5c}{13}",
+  "latency_seconds": 32.0,
+  "input_tokens": 880,
+  "output_tokens": 1416,
+  "timestamp": "2026-02-23T10:16:20Z",
+  "confidence": 100,
+  "error": null
+}

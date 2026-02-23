@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "I need to define a null vector in the context of special and general relativity.\n\nIn relativity, we work with 4-vectors in spacetime. The key property that defines different types of vectors is their invariant length (or norm), which is calculated using the metric tensor.\n\nFor a 4-vector $V^{\\mu}$ in special relativity (using the Minkowski metric), the invariant length squared is:\n$$V^{\\mu}V_{\\mu} = \\eta_{\\mu\\nu}V^{\\mu}V^{\\nu} = -(V^0)^2 + (V^1)^2 + (V^2)^2 + (V^3)^2$$\n\nwhere $\\eta_{\\mu\\nu} = \\text{diag}(-1, 1, 1, 1)$ is the Minkowski metric tensor.\n\nIn general relativity, this generalizes to:\n$$V^{\\mu}V_{\\mu} = g_{\\mu\\nu}V^{\\mu}V^{\\nu}$$\n\nwhere $g_{\\mu\\nu}$ is the metric tensor.\n\nBased on the value of this invariant, vectors are classified as:\n- **Timelike**: $V^{\\mu}V_{\\mu} < 0$\n- **Spacelike**: $V^{\\mu}V_{\\mu} > 0$\n- **Null (or lightlike)**: $V^{\\mu}V_{\\mu} = 0$\n\nTherefore, a null vector is defined as a 4-vector whose invariant length (norm) is zero.\n\nPhysical interpretation:\n- Null vectors represent the worldlines of massless particles (like photons)\n- They lie on the light cone in spacetime\n- The 4-momentum of a photon is a null vector: $P^{\\mu}P_{\\mu} = -E^2 + |\\vec{p}|^2 = 0$, which gives $E = |\\vec{p}|c$ (setting $c=1$)\n\n\\boxed{A null vector is a 4-vector $V^{\\mu}$ whose invariant length is zero: $V^{\\mu}V_{\\mu} = g_{\\mu\\nu}V^{\\mu}V^{\\nu} = 0$. Null vectors represent the trajectories of light rays and massless particles in spacetime.}\n\nConfidence: 100%",
+  "extracted_answer": "A null vector is a 4-vector $V^{\\mu}$ whose invariant length is zero: $V^{\\mu}V_{\\mu} = g_{\\mu\\nu}V^{\\mu}V^{\\nu} = 0$. Null vectors represent the trajectories of light rays and massless particles in spacetime.",
+  "latency_seconds": 13.17,
+  "input_tokens": 941,
+  "output_tokens": 562,
+  "timestamp": "2026-02-22T19:41:58Z",
+  "confidence": 100,
+  "error": null
+}

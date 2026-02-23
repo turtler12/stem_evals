@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps6-3",
+  "full_response": "The velocity of particle B as measured in the rest frame of particle A is obtained by applying a Lorentz boost along the direction of particle A's velocity. Without loss of generality, align the x-axis with the velocity of particle A, so that \\(\\vec{u} = (u, 0, 0)\\) in frame R. Let particle B have velocity \\(\\vec{v} = (v \\cos\\theta, v \\sin\\theta, 0)\\), where \\(\\theta\\) is the angle between \\(\\vec{u}\\) and \\(\\vec{v}\\). Boosting to the rest frame of particle A (moving with velocity \\(u\\) along the x-axis relative to R) yields the following components for the velocity \\(\\vec{w}\\) of particle B:\n\n\\[\nw_x = \\frac{v \\cos\\theta - u}{1 - \\frac{u v \\cos\\theta}{c^2}}, \\quad w_y = \\frac{v \\sin\\theta}{\\gamma_u \\left(1 - \\frac{u v \\cos\\theta}{c^2}\\right)}, \\quad w_z = 0,\n\\]\n\nwhere \\(\\gamma_u = \\dfrac{1}{\\sqrt{1 - \\dfrac{u^2}{c^2}}}\\).\n\n\\boxed{\\vec{w} = \\left( \\dfrac{v \\cos\\theta - u}{1 - \\dfrac{u v \\cos\\theta}{c^2}}, \\dfrac{v \\sin\\theta}{\\gamma_u \\left(1 - \\dfrac{u v \\cos\\theta}{c^2}\\right)}, 0 \\right)} \\quad \\text{with} \\quad \\gamma_u = \\dfrac{1}{\\sqrt{1 - \\dfrac{u^2}{c^2}}}}\n\nConfidence: 100%",
+  "extracted_answer": "\\vec{w",
+  "latency_seconds": 62.36,
+  "input_tokens": 870,
+  "output_tokens": 3224,
+  "timestamp": "2026-02-23T03:24:39Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "I'll solve this step-by-step using conservation of energy and momentum.\n\n**Given information:**\n- Higgs rest mass: $m_h c^2 = 125$ GeV\n- Decay process: $h \\to \\gamma \\gamma$ (Higgs decays into two photons)\n- We're working in the Higgs rest frame\n\n**Step 1: Set up the initial conditions**\n\nIn the Higgs rest frame:\n- Initial 4-momentum of Higgs: $P_h^{\\mu} = (m_h c, 0, 0, 0)$\n- Initial energy: $E_h = m_h c^2 = 125$ GeV\n- Initial 3-momentum: $\\vec{p}_h = 0$\n\n**Step 2: Apply conservation laws**\n\nFor the two photons after decay, let's denote their 4-momenta as $P_1^{\\mu}$ and $P_2^{\\mu}$.\n\nConservation of 4-momentum requires:\n$$P_h^{\\mu} = P_1^{\\mu} + P_2^{\\mu}$$\n\nThis gives us:\n- Energy conservation: $m_h c^2 = E_1 + E_2$\n- Momentum conservation: $\\vec{0} = \\vec{p}_1 + \\vec{p}_2$\n\n**Step 3: Use properties of photons**\n\nFor photons:\n- Rest mass = 0\n- Energy-momentum relation: $E = pc$ (where $p = |\\vec{p}|$)\n\nFrom momentum conservation:\n$$\\vec{p}_1 + \\vec{p}_2 = 0$$\n$$\\vec{p}_1 = -\\vec{p}_2$$\n\nThis means the photons travel in opposite directions with equal magnitude momenta:\n$$|\\vec{p}_1| = |\\vec{p}_2| = p$$\n\n**Step 4: Solve for photon energies**\n\nSince $E = pc$ for photons:\n$$E_1 = p_1 c = pc$$\n$$E_2 = p_2 c = pc$$\n\nTherefore: $E_1 = E_2$\n\nFrom energy conservation:\n$$m_h c^2 = E_1 + E_2 = 2E_1$$\n\nSolving for $E_1$:\n$$E_1 = \\frac{m_h c^2}{2} = \\frac{125 \\text{ GeV}}{2} = 62.5 \\text{ GeV}$$\n\nBy symmetry:\n$$E_2 = 62.5 \\text{ GeV}$$\n\n**Step 5: Verify the result**\n\nWe can verify this makes sense:\n- Total energy is conserved: $62.5 + 62.5 = 125$ GeV \u2713\n- Momentum is conserved: photons travel in opposite directions with equal momenta \u2713\n- The photons each carry half the Higgs mass-energy \u2713\n\n\\boxed{E_\\gamma = 62.5 \\text{ GeV for each photon}}\n\nConfidence: 100%",
+  "extracted_answer": "E_\\gamma = 62.5 \\text{ GeV for each photon}",
+  "latency_seconds": 14.59,
+  "input_tokens": 1007,
+  "output_tokens": 755,
+  "timestamp": "2026-02-22T19:45:56Z",
+  "confidence": 100,
+  "error": null
+}

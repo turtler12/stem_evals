@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-sonnet-4",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "I need to analyze the Higgs boson decay into two photons in the rest frame of the Higgs.\n\n**Given Information:**\n- Higgs rest mass energy: $m_h c^2 = 125$ GeV\n- Decay process: $h \\rightarrow \\gamma\\gamma$ (Higgs \u2192 two photons)\n- We're working in the rest frame of the Higgs\n\n**Assumptions:**\n- The Higgs is initially at rest in this frame\n- Conservation of energy and momentum apply\n- Photons are massless particles\n\n**Step 1: Apply conservation of energy**\n\nIn the rest frame of the Higgs, the initial energy is just the rest mass energy:\n$$E_{\\text{initial}} = m_h c^2 = 125 \\text{ GeV}$$\n\nAfter decay, we have two photons with energies $E_1$ and $E_2$:\n$$E_{\\text{final}} = E_1 + E_2$$\n\nBy conservation of energy:\n$$m_h c^2 = E_1 + E_2$$\n\n**Step 2: Apply conservation of momentum**\n\nInitially, the Higgs is at rest, so:\n$$\\vec{p}_{\\text{initial}} = \\vec{0}$$\n\nAfter decay, the two photons have momenta $\\vec{p}_1$ and $\\vec{p}_2$:\n$$\\vec{p}_{\\text{final}} = \\vec{p}_1 + \\vec{p}_2$$\n\nBy conservation of momentum:\n$$\\vec{0} = \\vec{p}_1 + \\vec{p}_2$$\n\nTherefore:\n$$\\vec{p}_2 = -\\vec{p}_1$$\n\nThis means the photons travel in exactly opposite directions with equal magnitude momenta.\n\n**Step 3: Relate photon energy to momentum**\n\nFor massless photons, the energy-momentum relation is:\n$$E = pc$$\n\nSo:\n$$E_1 = p_1 c \\quad \\text{and} \\quad E_2 = p_2 c$$\n\nSince $|\\vec{p}_1| = |\\vec{p}_2|$, we have $p_1 = p_2$, which means:\n$$E_1 = E_2$$\n\n**Step 4: Solve for individual photon energies**\n\nFrom conservation of energy and the fact that $E_1 = E_2$:\n$$m_h c^2 = E_1 + E_2 = 2E_1$$\n\nTherefore:\n$$E_1 = E_2 = \\frac{m_h c^2}{2} = \\frac{125 \\text{ GeV}}{2} = 62.5 \\text{ GeV}$$\n\n**Verification:**\n- Energy conservation: $62.5 + 62.5 = 125$ GeV \u2713\n- Momentum conservation: Equal and opposite momenta \u2713\n- Each photon has momentum $p = E/c = 62.5$ GeV/c\n\n$\\boxed{62.5 \\text{ GeV}}$\n\nConfidence: 95%",
+  "extracted_answer": "62.5 \\text{ GeV}",
+  "latency_seconds": 25.03,
+  "input_tokens": 1007,
+  "output_tokens": 752,
+  "timestamp": "2026-02-21T22:15:10Z",
+  "confidence": 95,
+  "error": null
+}

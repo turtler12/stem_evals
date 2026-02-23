@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps6-1a",
+  "full_response": "The symmetrization of a tensor \\(T_{ab}\\) over its two indices is defined as the average of the tensor and its transpose, ensuring the result is symmetric and reduces to the original tensor if it is already symmetric. Thus,\n\n\\[\nT_{(ab)} = \\frac{1}{2}(T_{ab} + T_{ba}).\n\\]\n\n\\boxed{T_{(ab)} = \\frac{1}{2}(T_{ab} + T_{ba})}\nConfidence: 100%",
+  "extracted_answer": "T_{(ab)} = \\frac{1}{2}(T_{ab} + T_{ba})",
+  "latency_seconds": 10.2,
+  "input_tokens": 884,
+  "output_tokens": 465,
+  "timestamp": "2026-02-23T03:22:27Z",
+  "confidence": 100,
+  "error": null
+}

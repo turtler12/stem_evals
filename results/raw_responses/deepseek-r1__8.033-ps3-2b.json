@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps3-2b",
+  "full_response": "The muon must travel a distance of \\(H = 30{,}000\\ \\text{m}\\) in the Earth frame before decaying. Its proper lifetime is \\(\\tau = 10^{-6}\\ \\text{s}\\), and due to time dilation, the lifetime in the Earth frame is \\(\\Delta t = \\gamma \\tau\\), where \\(\\gamma = 1/\\sqrt{1 - v^2/c^2}\\) and \\(v\\) is the muon's speed. The condition for reaching Earth is \\(v \\gamma \\tau \\geq H\\).\n\nCalculating the ratio:\n\\[\n\\frac{H}{c\\tau} = \\frac{3 \\times 10^4\\ \\text{m}}{(3 \\times 10^8\\ \\text{m/s})(10^{-6}\\ \\text{s})} = \\frac{3 \\times 10^4}{300} = 100.\n\\]\nLet \\(\\beta = v/c\\) and \\(k = 100\\). Then \\(\\beta \\gamma = \\beta / \\sqrt{1 - \\beta^2} = k\\). Solving for \\(\\beta\\):\n\\[\n\\beta^2 = k^2 (1 - \\beta^2) \\quad \\Rightarrow \\quad \\beta^2 (1 + k^2) = k^2 \\quad \\Rightarrow \\quad \\beta = \\frac{k}{\\sqrt{1 + k^2}} = \\frac{100}{\\sqrt{10001}}.\n\\]\nThus, the required speed is \\(v = \\beta c = \\dfrac{100}{\\sqrt{10001}} \\, c\\).\n\n\\boxed{v = \\dfrac{100}{\\sqrt{10001}} \\ c}\nConfidence: 100%",
+  "extracted_answer": "v = \\dfrac{100",
+  "latency_seconds": 60.1,
+  "input_tokens": 951,
+  "output_tokens": 3039,
+  "timestamp": "2026-02-23T03:03:49Z",
+  "confidence": 100,
+  "error": null
+}

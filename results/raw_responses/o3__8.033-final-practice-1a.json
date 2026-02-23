@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-1a",
+  "full_response": "Step\u2013by\u2013step discussion of one empirical failure of Newtonian gravity  \n\n1. Newton\u2019s law of universal gravitation predicts that the motion of a test particle in the static gravitational field of a point mass is exactly Keplerian.  \n   \u2022 In particular, in the two\u2013body problem the trajectory is a closed ellipse whose perihelion (point of closest approach) is fixed in space.  \n   \u2022 Mathematically, in Newtonian mechanics the Runge\u2013Lenz vector  \n     A\u20d7 = p\u20d7 \u00d7 L\u20d7  \u2212 m k r\u0302     (k = GMm)  \n     is an exact constant of motion, guaranteeing a fixed orientation of the ellipse.\n\n2. The orbit of Mercury about the Sun is therefore predicted, after taking into account the perturbing Newtonian forces of the other planets, to precess by  \n      \u0394\u03d6_Newton \u2243 531\u2033 per century.  \n   This value comes entirely from the calculated Newtonian perturbations.\n\n3. The observed advance of Mercury\u2019s perihelion, measured astronomically, is  \n      \u0394\u03d6_obs = 574\u2033 per century.  \n\n4. The discrepancy is  \n      \u0394\u03d6_extra = \u0394\u03d6_obs \u2212 \u0394\u03d6_Newton \u2243 43\u2033 per century.  \n\n5. No adjustment of Newtonian parameters (e.g., unmodelled asteroid belts, solar oblateness, a new inner planet \u201cVulcan,\u201d etc.) could account for this residual 43\u2033/century.  \n\n6. General Relativity, however, predicts an additional precession  \n      \u0394\u03d6_GR = 6\u03c0GM\u2299/(a(1\u2212e\u00b2)c\u00b2) = 43\u2033 per century,  \n   where a and e are Mercury\u2019s semi-major axis and eccentricity. This exactly matches the observed excess.\n\nConclusion  \nThe failure of Newtonian gravity to explain the remaining 43 arc-seconds per century in Mercury\u2019s perihelion advance is a clear empirical discrepancy remedied by General Relativity.\n\n\\boxed{\\text{Newtonian gravity cannot account for the extra } \\approx 43^{\\prime\\prime}\\text{/century advance of Mercury\u2019s perihelion that is precisely explained by General Relativity.}}  \n\nConfidence: 88%",
+  "extracted_answer": "\\text{Newtonian gravity cannot account for the extra } \\approx 43^{\\prime\\prime}\\text{/century advance of Mercury\u2019s perihelion that is precisely explained by General Relativity.}",
+  "latency_seconds": 7.78,
+  "input_tokens": 837,
+  "output_tokens": 624,
+  "timestamp": "2026-02-21T22:18:00Z",
+  "confidence": 88,
+  "error": null
+}

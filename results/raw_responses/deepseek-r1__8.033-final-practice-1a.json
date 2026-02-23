@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-final-practice-1a",
+  "full_response": "In Newtonian gravity, the orbit of a planet around a spherically symmetric mass is a closed ellipse, with the perihelion fixed in space aside from perturbations from other bodies. However, observations of Mercury's orbit reveal an advance of its perihelion by about 574 arcseconds per century. After accounting for gravitational perturbations from other planets using Newtonian theory, approximately 43 arcseconds per century remain unexplained. General relativity predicts an additional precession due to spacetime curvature, given by \\(\\Delta \\phi = \\frac{6\\pi GM}{c^2 a (1 - e^2)}\\) per orbit. Using Mercury's orbital parameters, this yields about 43 arcseconds per century, matching the observed anomaly. Thus, Newtonian gravity fails to account for this empirical result.\n\n\\boxed{Newtonian gravity fails to predict the anomalous precession of Mercury's perihelion, which is approximately 43 arcseconds per century. This is successfully explained by general relativity.}\nConfidence: 100%",
+  "extracted_answer": "Newtonian gravity fails to predict the anomalous precession of Mercury's perihelion, which is approximately 43 arcseconds per century. This is successfully explained by general relativity.",
+  "latency_seconds": 20.73,
+  "input_tokens": 828,
+  "output_tokens": 1018,
+  "timestamp": "2026-02-23T03:59:10Z",
+  "confidence": 100,
+  "error": null
+}

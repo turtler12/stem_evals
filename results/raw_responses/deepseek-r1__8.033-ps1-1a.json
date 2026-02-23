@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps1-1a",
+  "full_response": "The tangent vector to the curve \\( \\mathbf{v}(\\lambda) = (\\sin(\\lambda^2), \\ln(\\lambda+1), 2\\lambda^2-1) \\) is found by differentiating each component with respect to \\(\\lambda\\):\n\n\\[\n\\frac{d\\mathbf{v}}{d\\lambda} = \\left( \\frac{d}{d\\lambda} \\sin(\\lambda^2),\\ \\frac{d}{d\\lambda} \\ln(\\lambda+1),\\ \\frac{d}{d\\lambda} (2\\lambda^2-1) \\right).\n\\]\n\nComputing each derivative:\n- \\(\\frac{d}{d\\lambda} \\sin(\\lambda^2) = \\cos(\\lambda^2) \\cdot 2\\lambda = 2\\lambda \\cos(\\lambda^2)\\),\n- \\(\\frac{d}{d\\lambda} \\ln(\\lambda+1) = \\frac{1}{\\lambda+1}\\),\n- \\(\\frac{d}{d\\lambda} (2\\lambda^2-1) = 4\\lambda\\).\n\nThus, the tangent vector at any \\(\\lambda\\) is \\((2\\lambda \\cos(\\lambda^2),\\ \\frac{1}{\\lambda+1},\\ 4\\lambda)\\).\n\n\\boxed{(2\\lambda\\cos(\\lambda^2),\\ \\frac{1}{\\lambda+1},\\ 4\\lambda)}  \nConfidence: 100%",
+  "extracted_answer": "(2\\lambda\\cos(\\lambda^2),\\ \\frac{1}{\\lambda+1},\\ 4\\lambda)",
+  "latency_seconds": 12.14,
+  "input_tokens": 870,
+  "output_tokens": 587,
+  "timestamp": "2026-02-23T02:51:24Z",
+  "confidence": 100,
+  "error": null
+}

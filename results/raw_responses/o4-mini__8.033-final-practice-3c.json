@@ -1,0 +1,12 @@
+{
+  "model_name": "o4-mini",
+  "question_id": "8.033-final-practice-3c",
+  "full_response": "We work in Schwarzschild coordinates \\((t,r,\\theta,\\phi)\\) with metric  \n\u2003\\(ds^2 = g_{tt}\\,dt^2 + g_{rr}\\,dr^2 + r^2(d\\theta^2 + \\sin^2\\theta\\,d\\phi^2)\\),  \nwhere  \n\u2003\\(g_{tt} = -\\Bigl(1 - \\dfrac{2GM}{r}\\Bigr),\\quad g_{rr} = \\dfrac{1}{1 - 2GM/r}.\\)\n\nOn the curve \\(r=r_0,\\;\\theta=\\theta_0,\\;\\phi=\\phi_0\\) we have the coordinate tangent  \n\u2003\\(U^\\mu = \\dfrac{dx^\\mu}{d\\lambda} = (1,0,0,0)\\)  \nwhere \\(\\lambda\\) has been chosen to coincide with the Schwarzschild coordinate \\(t\\).  \n\n(a)  Compute the norm \\(U^\\mu U_\\mu\\):  \n\\[\nU^\\mu U_\\mu \\;=\\; g_{\\mu\\nu}\\,U^\\mu U^\\nu\n\\;=\\; g_{tt}\\,(U^t)^2\n\\;=\\; -\\Bigl(1-\\tfrac{2GM}{r_0}\\Bigr)\\,(1)^2\n\\;=\\; -\\Bigl(1-\\tfrac{2GM}{r_0}\\Bigr)\\,.\n\\]\n\n(b)  A true 4\u2010velocity \\(V^\\mu\\) of a massive particle must satisfy  \n\u2003\\(V^\\mu V_\\mu = -1\\).  \nWe see that  \n\\[\nU^\\mu U_\\mu = -\\Bigl(1-\\tfrac{2GM}{r_0}\\Bigr)\\;\\neq\\;-1\n\\quad\\text{(unless \\(r_0\\to\\infty\\)).}\n\\]\n\n(c)  **Explanation of the discrepancy:**  \nThe vector \\(U^\\mu=(1,0,0,0)\\) is the coordinate tangent to lines of constant \\((r,\\theta,\\phi)\\), *parametrized by coordinate time* \\(t\\).  It is *not* normalized to proper time \\(\\tau\\).  In other words, \\(\\lambda = t\\) is not the particle\u2019s proper time.  To obtain the physical 4\u2010velocity \\(V^\\mu = dx^\\mu/d\\tau\\), one must rescale by  \n\\[\n\\frac{dt}{d\\tau}\n\\;=\\;\\frac1{\\sqrt{1 - 2GM/r_0}}\n\\quad\\Longrightarrow\\quad\nV^\\mu = \\Bigl(\\tfrac1{\\sqrt{1 - 2GM/r_0}},\\,0,\\,0,\\,0\\Bigr),\n\\]\nwhich indeed satisfies \\(V^\\mu V_\\mu = -1\\).\n\n\\boxed{%\nU^\\mu U_\\mu = -\\Bigl(1-\\tfrac{2GM}{r_0}\\Bigr)\\neq -1;\n\\text{ the coordinate\u2010time tangent is not proper\u2010time normalized.}%\n}\n\nConfidence: 18%",
+  "extracted_answer": "%\nU^\\mu U_\\mu = -\\Bigl(1-\\tfrac{2GM}{r_0}\\Bigr)\\neq -1;\n\\text{ the coordinate\u2010time tangent is not proper\u2010time normalized.}%",
+  "latency_seconds": 7.09,
+  "input_tokens": 919,
+  "output_tokens": 947,
+  "timestamp": "2026-02-21T22:20:20Z",
+  "confidence": 18,
+  "error": null
+}

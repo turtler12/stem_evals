@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "6.1220-ps7-1c",
+  "full_response": "I'll solve this optimization problem step by step.\n\n## Problem Understanding\nWe need to maximize the total utility $u_A + u_B$ where:\n- $u_A = \\begin{cases} 0 & \\text{if } x_A + x_B > 1 \\\\ x_A(1-x_A-x_B) & \\text{otherwise} \\end{cases}$\n- $u_B = \\begin{cases} 0 & \\text{if } x_A + x_B > 1 \\\\ x_B(1-x_A-x_B) & \\text{otherwise} \\end{cases}$\n\n## Solution\n\nSince the utility is 0 when $x_A + x_B > 1$, we need $x_A + x_B \\leq 1$ for non-zero utility.\n\nFor $x_A + x_B \\leq 1$, the total utility is:\n$$U = u_A + u_B = x_A(1-x_A-x_B) + x_B(1-x_A-x_B)$$\n$$U = (x_A + x_B)(1-x_A-x_B)$$\n\nLet $s = x_A + x_B$. Then we need to maximize:\n$$U(s) = s(1-s) = s - s^2$$\n\nsubject to $0 \\leq s \\leq 1$.\n\nTaking the derivative:\n$$\\frac{dU}{ds} = 1 - 2s$$\n\nSetting equal to zero:\n$$1 - 2s = 0$$\n$$s = \\frac{1}{2}$$\n\nTo verify this is a maximum:\n$$\\frac{d^2U}{ds^2} = -2 < 0$$\n\nSo $s = \\frac{1}{2}$ gives a maximum.\n\nTherefore, we need $x_A + x_B = \\frac{1}{2}$.\n\nThe maximum utility is:\n$$U_{max} = \\frac{1}{2}(1-\\frac{1}{2}) = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$$\n\nNow we need to determine how to split this total between Alice and Bob. Since the utility function is symmetric in $x_A$ and $x_B$, and we want to maximize total utility, any split where $x_A + x_B = \\frac{1}{2}$ will give the same total utility.\n\nHowever, to find a specific solution, let's consider fairness. By symmetry, the fair solution is:\n$$x_A = x_B = \\frac{1}{4}$$\n\nLet's verify:\n- $x_A + x_B = \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2} \\leq 1$ \u2713\n- $u_A = \\frac{1}{4}(1-\\frac{1}{2}) = \\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8}$\n- $u_B = \\frac{1}{4}(1-\\frac{1}{2}) = \\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8}$\n- Total utility: $u_A + u_B = \\frac{1}{8} + \\frac{1}{8} = \\frac{1}{4}$ \u2713\n\n\\boxed{x_A = \\frac{1}{4}, x_B = \\frac{1}{4}}\n\nConfidence: 95%",
+  "extracted_answer": "x_A = \\frac{1}{4}, x_B = \\frac{1}{4}",
+  "latency_seconds": 16.04,
+  "input_tokens": 516,
+  "output_tokens": 894,
+  "timestamp": "2026-02-22T21:38:57Z",
+  "confidence": 95,
+  "error": null
+}

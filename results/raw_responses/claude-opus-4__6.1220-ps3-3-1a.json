@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "6.1220-ps3-3-1a",
+  "full_response": "I'll solve this step-by-step.\n\n**Understanding the Problem:**\n- Allie starts at origin (position 0)\n- The log extends from -500 to +500 inches\n- The crumb is at position -20 inches (20 inches backward from origin)\n- Allie's strategy: walk forward to +500, then backward to -500\n- Terry knows the crumb location and takes the optimal path\n- Both stop when they reach the crumb\n\n**Analyzing Allie's Path:**\nAllie starts at origin and walks forward first:\n- From position 0 to position +500: distance = 500 inches\n- Then she turns around and walks backward\n- From position +500 to position -20: distance = 500 - (-20) = 520 inches\n- She stops at -20 when she finds the crumb\n\nTotal distance traveled by Allie = 500 + 520 = 1020 inches\n\n**Analyzing Terry's Path:**\nTerry is omniscient and knows the crumb is at position -20:\n- He starts at position 0\n- He walks directly backward to position -20: distance = 20 inches\n- He stops when he reaches the crumb\n\nTotal distance traveled by Terry = 20 inches\n\n**Computing the Ratio:**\nRatio = Allie's distance / Terry's distance\nRatio = 1020 / 20 = 51\n\n**Verification:**\n- Allie: 0 \u2192 +500 \u2192 -20\n  - Forward leg: 500 inches\n  - Backward leg: 520 inches  \n  - Total: 1020 inches \u2713\n  \n- Terry: 0 \u2192 -20\n  - Total: 20 inches \u2713\n  \n- Ratio: 1020/20 = 51 \u2713\n\n\\boxed{51}\n\nConfidence: 100%",
+  "extracted_answer": "51",
+  "latency_seconds": 9.74,
+  "input_tokens": 501,
+  "output_tokens": 439,
+  "timestamp": "2026-02-22T21:34:52Z",
+  "confidence": 100,
+  "error": null
+}

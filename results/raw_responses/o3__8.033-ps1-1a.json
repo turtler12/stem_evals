@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-ps1-1a",
+  "full_response": "Let\n\nv(\u03bb) = (x(\u03bb), y(\u03bb), z(\u03bb))  \n\u2003\u2003\u2003 = (sin(\u03bb\u00b2),\u2003ln(\u03bb+1),\u20032\u03bb\u00b2 \u2212 1).\n\nThe tangent vector to the curve is the derivative dv/d\u03bb:\n\n1. x-component  \n\u2003x(\u03bb) = sin(\u03bb\u00b2)  \n\u2003dx/d\u03bb = cos(\u03bb\u00b2) \u00b7 d(\u03bb\u00b2)/d\u03bb = cos(\u03bb\u00b2) \u00b7 2\u03bb = 2\u03bb cos(\u03bb\u00b2).\n\n2. y-component  \n\u2003y(\u03bb) = ln(\u03bb+1)\u2003\u2003(valid for \u03bb > \u22121)  \n\u2003dy/d\u03bb = 1/(\u03bb+1).\n\n3. z-component  \n\u2003z(\u03bb) = 2\u03bb\u00b2 \u2212 1  \n\u2003dz/d\u03bb = 4\u03bb.\n\nTherefore\n\ndv/d\u03bb = (2\u03bb cos(\u03bb\u00b2),\u20031/(\u03bb+1),\u20034\u03bb).\n\n\\boxed{\\displaystyle \\frac{dv}{d\\lambda} = \\bigl(2\\lambda\\cos(\\lambda^{2}),\\; \\frac{1}{\\lambda+1},\\; 4\\lambda\\bigr)}\n\nConfidence: 91%",
+  "extracted_answer": "\\displaystyle \\frac{dv}{d\\lambda} = \\bigl(2\\lambda\\cos(\\lambda^{2}),\\; \\frac{1}{\\lambda+1},\\; 4\\lambda\\bigr)",
+  "latency_seconds": 3.67,
+  "input_tokens": 877,
+  "output_tokens": 474,
+  "timestamp": "2026-02-23T00:25:28Z",
+  "confidence": 91,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-midterm2-practice-1a",
+  "full_response": "Step 1.  Relate the proper time of the microbes to the laboratory time   \nFor an object moving at a constant speed v in the laboratory (un-primed) frame, the relation between the coordinate time interval \u0394t and the proper time interval \u0394\u03c4 is  \n\n\u0394\u03c4 = \u0394t \u221a(1 \u2013 v\u00b2/c\u00b2) ,\u2003or\u2003\u03b3 \u2261 \u0394t/\u0394\u03c4 = 1/\u221a(1 \u2013 v\u00b2/c\u00b2).\n\nThe microbes must survive 3 h of proper time while 5 h elapse in the laboratory:\n\n\u03b3 = \u0394t/\u0394\u03c4 = 5 h / 3 h = 5/3.\n\nStep 2.  Solve for the required tangential speed v  \n1/\u221a(1 \u2013 v\u00b2/c\u00b2) = 5/3  \n\u21d2 \u221a(1 \u2013 v\u00b2/c\u00b2) = 3/5  \n\u21d2 1 \u2013 v\u00b2/c\u00b2 = 9/25  \n\u21d2 v\u00b2/c\u00b2 = 16/25  \n\u21d2 v = (4/5)c \u2248 0.80 c.\n\nStep 3.  Convert the tangential speed to an angular speed  \nFor uniform circular motion at radius R (measured in the laboratory frame),\n\nv = \u03c9R \u2003\u21d2\u2003\u03c9 = v/R = (4/5) c / R.\n\nThus the centrifuge must spin with\n\n\u03c9 = (4c)/(5R).\n\n( R may be given in metres; \u03c9 will then be in rad s\u207b\u00b9.)\n\nPhysical remark: \u03c9 is enormous.  For a 10 cm radius, \u03c9 \u2248 2.4 \u00d7 10\u2079 rad s\u207b\u00b9 (\u2248 4 \u00d7 10\u2078 rev s\u207b\u00b9), far beyond practical capability\u2014but this is the value required by special relativity.\n\n\\boxed{\\displaystyle \\omega = \\frac{4c}{5R}}\n\nConfidence: 90%",
+  "extracted_answer": "\\displaystyle \\omega = \\frac{4c}{5R}",
+  "latency_seconds": 8.07,
+  "input_tokens": 1023,
+  "output_tokens": 1132,
+  "timestamp": "2026-02-23T02:10:32Z",
+  "confidence": 90,
+  "error": null
+}

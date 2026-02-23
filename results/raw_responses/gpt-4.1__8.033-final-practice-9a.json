@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4.1",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "Let's solve the problem step by step:\n\n---\n\n### **Given:**\n\n- Rest mass of Higgs: \\( m_h c^2 = 125\\,\\text{GeV} \\)\n- Decay: \\( h \\to \\gamma\\gamma \\)\n- Frame: **Rest frame** of Higgs (i.e., before decay, Higgs is at rest)\n\n---\n\n### **Step 1: Conservation Laws**\n\nThe decay is from one particle (Higgs at rest) to two massless photons.\n\n- **Conservation of Energy**:\n  \\[\n  E_{\\text{initial}} = E_{\\text{final}}\n  \\]\n- **Conservation of Momentum**:\n  \\[\n  \\vec{p}_{\\text{initial}} = \\vec{p}_{\\text{final}}\n  \\]\n\n---\n\n#### **Initial State (Higgs at Rest):**\n\n- Energy: \\( E_i = m_h c^2 \\)\n- Momentum: \\( \\vec{p}_i = 0 \\)\n\n---\n\n#### **Final State (Two Photons):**\n\nLet the two photons have momenta \\( \\vec{p}_1 \\) and \\( \\vec{p}_2 \\), and energies \\( E_1 \\) and \\( E_2 \\).\nPhotons are massless, so \\( E_i = |\\vec{p}_i| c \\).\n\nSince momentum is conserved and initial momentum is zero, the two photons must be emitted **back-to-back** with equal and opposite momenta:\n\n\\[\n\\vec{p}_1 + \\vec{p}_2 = 0 \\implies \\vec{p}_2 = -\\vec{p}_1\n\\]\nThus \\( |\\vec{p}_1| = |\\vec{p}_2| \\), and also \\( E_1 = E_2 \\).\n\nLet \\( p \\) denote the magnitude of the momentum.\n\n---\n\n### **Step 2: Energy Calculation**\n\n\\[\nE_1 = |\\vec{p}_1| c, \\quad E_2 = |\\vec{p}_2| c\n\\]\n\nTotal final energy:\n\n\\[\nE_f = E_1 + E_2 = 2 E_1 = 2 p c\n\\]\n\nSet equal to the initial energy:\n\n\\[\nE_i = E_f \\implies m_h c^2 = 2 p c\n\\]\n\nSolve for \\( p \\):\n\n\\[\nm_h c^2 = 2 p c \\implies p = \\frac{m_h c}{2}\n\\]\n\nTherefore, energy of each photon:\n\n\\[\nE_{\\gamma} = p c = \\frac{m_h c^2}{2}\n\\]\n\nGiven \\( m_h c^2 = 125\\,\\text{GeV} \\), we find:\n\n\\[\nE_{\\gamma} = \\frac{125\\,\\text{GeV}}{2} = 62.5\\,\\text{GeV}\n\\]\n\n---\n\n### **Step 3: Boxed Final Answer**\n\n\\[\n\\boxed{E_{\\gamma} = 62.5\\ \\text{GeV}}\n\\]\n\n---\n\n**Confidence: 100%**",
+  "extracted_answer": "E_{\\gamma} = 62.5\\ \\text{GeV}",
+  "latency_seconds": 4.12,
+  "input_tokens": 888,
+  "output_tokens": 657,
+  "timestamp": "2026-02-21T22:17:50Z",
+  "confidence": 100,
+  "error": null
+}

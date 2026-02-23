@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-midterm1-practice-5h",
+  "full_response": "",
+  "extracted_answer": "[No boxed answer found]",
+  "latency_seconds": 90.21,
+  "input_tokens": 850,
+  "output_tokens": 4096,
+  "timestamp": "2026-02-23T10:26:42Z",
+  "confidence": null,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-midterm2-practice-1a",
+  "full_response": "The microbes must experience a proper time of 3 hours while 5 hours pass in the lab frame. For circular motion at constant speed \\(v = \\omega R\\), time dilation relates proper time \\(\\Delta \\tau\\) and coordinate time \\(\\Delta t\\) via \\(\\Delta \\tau = \\Delta t / \\gamma\\), where \\(\\gamma = 1/\\sqrt{1 - v^2/c^2}\\). Setting \\(\\Delta \\tau = 3\\) hours and \\(\\Delta t = 5\\) hours gives \\(\\gamma = 5/3\\). Solving for \\(v\\):\n\n\\[\n\\frac{1}{\\gamma^2} = 1 - \\frac{v^2}{c^2} = \\left(\\frac{3}{5}\\right)^2 = \\frac{9}{25} \\implies \\frac{v^2}{c^2} = \\frac{16}{25} \\implies v = \\frac{4}{5}c.\n\\]\n\nSince \\(v = \\omega R\\), the required angular speed is:\n\n\\[\n\\omega = \\frac{v}{R} = \\frac{4c}{5R}.\n\\]\n\n\\boxed{\\omega = \\frac{4c}{5R}}\nConfidence: 95%",
+  "extracted_answer": "\\omega = \\frac{4c}{5R}",
+  "latency_seconds": 48.28,
+  "input_tokens": 1016,
+  "output_tokens": 2175,
+  "timestamp": "2026-02-23T10:30:34Z",
+  "confidence": 95,
+  "error": null
+}

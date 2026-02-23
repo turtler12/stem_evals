@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps3-1a",
+  "full_response": "In Alice's frame, the rod is at rest and has proper length \\(L\\). The light beam travels at speed \\(c\\) from one mirror to the other, covering a distance \\(L\\). The time elapsed for this one-way trip is therefore:\n\n\\[\n\\Delta t_A = \\frac{L}{c}\n\\]\n\n\\boxed{\\Delta t_A = \\frac{L}{c}}\nConfidence: 100%",
+  "extracted_answer": "\\Delta t_A = \\frac{L}{c}",
+  "latency_seconds": 16.95,
+  "input_tokens": 909,
+  "output_tokens": 841,
+  "timestamp": "2026-02-23T03:02:46Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-midterm2-practice-2c",
+  "full_response": "I'll derive the relationship between derivatives of the metric tensor and its inverse.\n\n**Given:** $g_{\\mu\\nu}$ is an arbitrary Lorentzian metric, and we need to show:\n$$\\partial_\\mu g^{\\nu\\rho} = -g^{\\nu\\kappa}g^{\\rho\\lambda}\\partial_\\mu g_{\\lambda\\kappa}$$\n\n**Key relationship:** The metric and its inverse satisfy:\n$$g^{\\mu\\nu}g_{\\nu\\rho} = \\delta^\\mu_\\rho$$\n\n**Derivation:**\n\nStep 1: Take the partial derivative of the fundamental relationship.\n$$\\partial_\\mu(g^{\\nu\\alpha}g_{\\alpha\\rho}) = \\partial_\\mu \\delta^\\nu_\\rho$$\n\nStep 2: Since the Kronecker delta is constant, its derivative is zero.\n$$\\partial_\\mu(g^{\\nu\\alpha}g_{\\alpha\\rho}) = 0$$\n\nStep 3: Apply the product rule.\n$$(\\partial_\\mu g^{\\nu\\alpha})g_{\\alpha\\rho} + g^{\\nu\\alpha}(\\partial_\\mu g_{\\alpha\\rho}) = 0$$\n\nStep 4: Solve for $\\partial_\\mu g^{\\nu\\alpha}$.\n$$(\\partial_\\mu g^{\\nu\\alpha})g_{\\alpha\\rho} = -g^{\\nu\\alpha}(\\partial_\\mu g_{\\alpha\\rho})$$\n\nStep 5: Multiply both sides by $g^{\\rho\\beta}$ from the right.\n$$(\\partial_\\mu g^{\\nu\\alpha})g_{\\alpha\\rho}g^{\\rho\\beta} = -g^{\\nu\\alpha}(\\partial_\\mu g_{\\alpha\\rho})g^{\\rho\\beta}$$\n\nStep 6: Use the fact that $g_{\\alpha\\rho}g^{\\rho\\beta} = \\delta_\\alpha^\\beta$.\n$$(\\partial_\\mu g^{\\nu\\alpha})\\delta_\\alpha^\\beta = -g^{\\nu\\alpha}(\\partial_\\mu g_{\\alpha\\rho})g^{\\rho\\beta}$$\n\nStep 7: Simplify using the Kronecker delta.\n$$\\partial_\\mu g^{\\nu\\beta} = -g^{\\nu\\alpha}g^{\\rho\\beta}(\\partial_\\mu g_{\\alpha\\rho})$$\n\nStep 8: Relabel indices for the final form. Let $\\beta \\to \\rho$, $\\alpha \\to \\kappa$, and $\\rho \\to \\lambda$:\n$$\\partial_\\mu g^{\\nu\\rho} = -g^{\\nu\\kappa}g^{\\lambda\\rho}(\\partial_\\mu g_{\\kappa\\lambda})$$\n\nStep 9: Use the symmetry of the metric tensor $g_{\\kappa\\lambda} = g_{\\lambda\\kappa}$ and rearrange:\n$$\\partial_\\mu g^{\\nu\\rho} = -g^{\\nu\\kappa}g^{\\rho\\lambda}(\\partial_\\mu g_{\\lambda\\kappa})$$\n\nThis completes the derivation.\n\n\\boxed{\\partial_\\mu g^{\\nu\\rho} = -g^{\\nu\\kappa}g^{\\rho\\lambda}\\partial_\\mu g_{\\lambda\\kappa}}\n\nConfidence: 95%",
+  "extracted_answer": "\\partial_\\mu g^{\\nu\\rho} = -g^{\\nu\\kappa}g^{\\rho\\lambda}\\partial_\\mu g_{\\lambda\\kappa}",
+  "latency_seconds": 15.84,
+  "input_tokens": 1006,
+  "output_tokens": 831,
+  "timestamp": "2026-02-22T21:31:52Z",
+  "confidence": 95,
+  "error": null
+}

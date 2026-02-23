@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "6.1220-ps8-1c",
+  "full_response": "We show that HAPPY-FRIEND is NP-complete via a polynomial-time reduction from CLIQUE.\n\n### Step 1: Problem Restatement\nHAPPY-FRIEND: Given \\(n\\) friends, \\(m\\) gifts, sets \\(S_i \\subseteq \\{1,\\dots,m\\}\\) for each friend \\(i\\), and an integer \\(h\\), is it possible to make at least \\(h\\) friends happy",
+  "extracted_answer": "[No boxed answer found]",
+  "latency_seconds": 90.45,
+  "input_tokens": 371,
+  "output_tokens": 4096,
+  "timestamp": "2026-02-23T11:09:15Z",
+  "confidence": null,
+  "error": null
+}

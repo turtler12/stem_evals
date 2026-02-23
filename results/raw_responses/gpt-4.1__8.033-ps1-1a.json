@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4.1",
+  "question_id": "8.033-ps1-1a",
+  "full_response": "Let's solve the problem step by step.\n\n---\n\n**Given:**\n\\[\n\\vec{v}(\\lambda) = \\left( \\sin(\\lambda^2),\\; \\ln(\\lambda+1),\\; 2\\lambda^2 - 1 \\right)\n\\]\n\nGoal: **Compute the tangent vector** to this curve at any \\(\\lambda\\).\n\nThe **tangent vector** at parameter \\(\\lambda\\) is\n\\[\n\\frac{d\\vec{v}}{d\\lambda}\n\\]\n\nLet's compute each component.\n\n---\n\n### 1. \\(x\\)-component\n\n\\[\nx(\\lambda) = \\sin(\\lambda^2)\n\\]\n\\[\n\\frac{dx}{d\\lambda} = \\cos(\\lambda^2) \\cdot \\frac{d}{d\\lambda}(\\lambda^2) = \\cos(\\lambda^2) \\cdot 2\\lambda = 2\\lambda \\cos(\\lambda^2)\n\\]\n\n---\n\n### 2. \\(y\\)-component\n\n\\[\ny(\\lambda) = \\ln(\\lambda + 1)\n\\]\n\\[\n\\frac{dy}{d\\lambda} = \\frac{1}{\\lambda + 1}\n\\]\n\n---\n\n### 3. \\(z\\)-component\n\n\\[\nz(\\lambda) = 2\\lambda^2 - 1\n\\]\n\\[\n\\frac{dz}{d\\lambda} = 4\\lambda\n\\]\n\n---\n\n### **Write the full tangent vector:**\n\nCollect all components:\n\\[\n\\frac{d\\vec{v}}{d\\lambda} = \\left(2\\lambda \\cos(\\lambda^2),\\quad \\frac{1}{\\lambda+1},\\quad 4\\lambda\\right)\n\\]\n\n---\n\n## **Final boxed answer:**\n\\[\n\\boxed{\n\\frac{d\\vec{v}}{d\\lambda} = \\left(2\\lambda \\cos(\\lambda^2),\\, \\frac{1}{\\lambda+1},\\, 4\\lambda\\right)\n}\n\\]\n\n---\n\n**Confidence: 100%**",
+  "extracted_answer": "\\frac{d\\vec{v",
+  "latency_seconds": 3.55,
+  "input_tokens": 882,
+  "output_tokens": 447,
+  "timestamp": "2026-02-23T00:09:09Z",
+  "confidence": 100,
+  "error": null
+}

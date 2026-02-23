@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-ps1-7a",
+  "full_response": "I need to find parametric equations for an upward-pointing cone with radius r at the base and height h.\n\nLet me set up a coordinate system where:\n- The apex (tip) of the cone is at the origin (0, 0, 0)\n- The cone points upward along the positive z-axis\n- The base of the cone is at z = h with radius r\n\nFor a cone, I'll use two parameters:\n- \u03b8: the azimuthal angle around the z-axis (0 \u2264 \u03b8 \u2264 2\u03c0)\n- z: the height coordinate (0 \u2264 z \u2264 h)\n\nAt any height z, the radius of the circular cross-section is proportional to the height. Since at z = h the radius is r, and at z = 0 the radius is 0, the radius at height z is:\n\nradius(z) = (r/h) \u00d7 z\n\nNow I can write the parametric equations:\n- The x-coordinate: x = radius(z) \u00d7 cos(\u03b8) = (rz/h) \u00d7 cos(\u03b8)\n- The y-coordinate: y = radius(z) \u00d7 sin(\u03b8) = (rz/h) \u00d7 sin(\u03b8)  \n- The z-coordinate: z = z\n\nTherefore, the parametric equations are:\n\nx = (rz/h) cos(\u03b8)\ny = (rz/h) sin(\u03b8)\nz = z\n\nwith parameter ranges:\n- 0 \u2264 \u03b8 \u2264 2\u03c0\n- 0 \u2264 z \u2264 h\n\nLet me verify this makes sense:\n- At z = 0: (x, y, z) = (0, 0, 0) - the apex\n- At z = h: (x, y, z) = (r cos(\u03b8), r sin(\u03b8), h) - points on a circle of radius r at height h\n- For fixed z: we get circles of radius rz/h\n- For fixed \u03b8: we get straight lines from apex to the edge of the base\n\n\\boxed{\nx = \\frac{rz}{h} \\cos(\\theta) \\\\\ny = \\frac{rz}{h} \\sin(\\theta) \\\\\nz = z \\\\\n\\text{where } 0 \\leq \\theta \\leq 2\\pi \\text{ and } 0 \\leq z \\leq h\n}\n\nConfidence: 95%",
+  "extracted_answer": "x = \\frac{rz}{h} \\cos(\\theta) \\\\\ny = \\frac{rz}{h} \\sin(\\theta) \\\\\nz = z \\\\\n\\text{where } 0 \\leq \\theta \\leq 2\\pi \\text{ and } 0 \\leq z \\leq h",
+  "latency_seconds": 11.46,
+  "input_tokens": 1023,
+  "output_tokens": 587,
+  "timestamp": "2026-02-22T21:16:28Z",
+  "confidence": 95,
+  "error": null
+}

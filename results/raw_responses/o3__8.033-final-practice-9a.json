@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "We work in the rest frame of the Higgs boson (denoted by an asterisk when needed).  \nNatural-units notation (c = 1) is used in the algebra and the factor of c is restored at the end.\n\n1. Four\u2013momentum of the initial state  \n   P_h^\u03bc = (E_h , 0, 0, 0) = (m_h , 0\u20d7)           ( because the Higgs is at rest )\n\n2. Four\u2013momenta of the two photons after the decay  \n   p_1^\u03bc = (E_1 , p\u20d7) ,\u2003 p_2^\u03bc = (E_2 , \u2212p\u20d7)    ( momentum must be equal and opposite for the total spatial momentum to remain zero )\n\n3. Energy conservation (time component of 4-momentum)  \n   E_1 + E_2 = m_h.\n\n4. Photons are massless, so |p\u20d7| = E (again c = 1).  \n   Because the magnitudes of their 3-momenta are equal, E_1 = E_2.\n\n5. Therefore  \n   2E_\u03b3 = m_h \u2003\u21d2\u2003 E_\u03b3 = m_h /2.\n\n6. Restore the factor of c:  \n   E_\u03b3 = (m_h c^2)/2.\n\nInsert the numerical Higgs mass, m_h c^2 \u2243 125 GeV:\n\nE_\u03b3 \u2243 125 GeV / 2 = 62.5 GeV.\n\n\\boxed{E_{\\text{photon}} \\;=\\; \\dfrac{m_h c^2}{2}\\;\\approx\\; 62.5\\ \\text{GeV}}  \n\nConfidence: 96%",
+  "extracted_answer": "E_{\\text{photon",
+  "latency_seconds": 10.11,
+  "input_tokens": 883,
+  "output_tokens": 593,
+  "timestamp": "2026-02-21T22:19:34Z",
+  "confidence": 96,
+  "error": null
+}

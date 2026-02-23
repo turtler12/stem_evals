@@ -1,0 +1,12 @@
+{
+  "model_name": "o4-mini",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "Below is a concise, step-by-step derivation of the definition.\n\n1.  Choice of metric and signature  \n    We work in Minkowski spacetime with coordinates \\(x^\\mu=(ct,x,y,z)\\) and metric  \n    \\[\n      g_{\\mu\\nu} = \\mathrm{diag}(-1,\\,+1,\\,+1,\\,+1)\\,.\n    \\]\n\n2.  Definition of the Minkowski \u201cnorm\u201d (inner product) of a 4-vector  \n    For any 4-vector \\(V^\\mu\\), its squared norm is\n    \\[\n      V^2 \\;\\equiv\\; g_{\\mu\\nu}\\,V^\\mu V^\\nu\n      \\;=\\;-\\,\\bigl(V^0\\bigr)^2 + \\bigl(V^1\\bigr)^2 + \\bigl(V^2\\bigr)^2 + \\bigl(V^3\\bigr)^2\n      \\,,\n    \\]\n    where \\(V^0=ct\\)-component and \\(V^{1,2,3}\\) are spatial components.\n\n3.  Classification of 4-vectors by their norm  \n    \u2022 Timelike if \\(V^2<0\\)  \n    \u2022 Spacelike if \\(V^2>0\\)  \n    \u2022 Null (lightlike) if \\(V^2=0\\,\\).\n\n4.  Definition of a null vector  \n    A 4-vector \\(k^\\mu\\) is called null (or lightlike) precisely when\n    \\[\n      g_{\\mu\\nu}\\,k^\\mu k^\\nu \\;=\\;0\\,.\n    \\]\n    Equivalently, its Minkowski \u201clength\u201d vanishes.\n\n5.  Geometric/physical interpretation  \n    Null vectors are tangent to the worldlines of massless particles (e.g.\\ photons), and they span the light cone at each event.\n\nFinal concise statement:\n\n\\boxed{\\text{A null (lightlike) vector }k^\\mu\\text{ is one whose Minkowski norm vanishes, }g_{\\mu\\nu}k^\\mu k^\\nu=0\\,.}\n\nConfidence: 100%",
+  "extracted_answer": "\\text{A null (lightlike) vector }k^\\mu\\text{ is one whose Minkowski norm vanishes, }g_{\\mu\\nu}k^\\mu k^\\nu=0\\,.",
+  "latency_seconds": 4.92,
+  "input_tokens": 828,
+  "output_tokens": 667,
+  "timestamp": "2026-02-21T22:19:57Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-8b",
+  "full_response": "For purely radial motion the Schwarzschild line-element can be written with the tortoise coordinate  \n\n\u2003r_* = r + 2GM ln|r/2GM \u2013 1|  \n\nas  \n\u2003ds\u00b2 = (1 \u2013 2GM/r)( \u2013 dt\u00b2 + dr_*\u00b2 ).             (1)\n\nFor a light ray ds\u00b2 = 0, so\n\n\u2003dt = \u00b1 dr_* .                                        (2)\n\nDefine the null (light-cone) coordinates  \n\n\u2003u \u2261 t \u2013 r_*\u2003\u2003(retarded time)  \n\u2003v \u2261 t + r_*\u2003\u2003(advanced time).                     (3)\n\nTake differentials:\n\n\u2003du = dt \u2013 dr_* ,     dv = dt + dr_* .              (4)\n\nOutgoing rays (moving toward larger r).  \nChoose the \u2018+\u2019 sign in (2): dt = + dr_*  (dr_* increases, hence r increases).  \nInsert in (4):\n\n\u2003du = dr_* \u2013 dr_* = 0\u2003\u2003\u21d2\u2003u = const.,  \n\u2003dv = dr_* + dr_* = 2 dr_* \u2260 0.\n\nThus u is constant along outward-moving (larger-r) light rays.\n\nIngoing rays (moving toward smaller r).  \nChoose the \u2018\u2013\u2019 sign in (2): dt = \u2013 dr_*  (dr_* decreases, hence r decreases).  \nInsert in (4):\n\n\u2003dv = \u2013dr_* + dr_* = 0\u2003\u2003\u21d2\u2003v = const.,  \n\u2003du = \u2013dr_* \u2013 dr_* = \u20132 dr_* \u2260 0.\n\nThus v is constant along inward-moving (smaller-r) light rays.\n\n\\boxed{\\;u = t - r_* \\text{ is constant for light rays moving toward larger } r\\;,\\quad\n       v = t + r_* \\text{ is constant for light rays moving toward smaller } r\\;}\n\nConfidence: 90%",
+  "extracted_answer": "\\;u = t - r_* \\text{ is constant for light rays moving toward larger } r\\;,\\quad\n       v = t + r_* \\text{ is constant for light rays moving toward smaller } r\\;",
+  "latency_seconds": 18.19,
+  "input_tokens": 870,
+  "output_tokens": 1715,
+  "timestamp": "2026-02-21T22:19:09Z",
+  "confidence": 90,
+  "error": null
+}

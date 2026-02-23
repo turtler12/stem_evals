@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-sonnet-4",
+  "question_id": "6.1220-ps3-3-1a",
+  "full_response": "I'll solve this step-by-step, analyzing both Allie's and Terry's strategies to find the ratio of their traveled distances.\n\n## Problem Setup\n- Log extends 500 inches in both directions from origin (total length 1000 inches)\n- Allie starts at origin (position 0)\n- Terry starts at origin (position 0) \n- Crumb is located at position -20 (20 inches backwards from origin)\n- Both stop upon reaching the crumb\n\n## Allie's Strategy Analysis\n\nAllie's strategy: Walk forward to the end, then walk backward to the other end.\n\n**Step 1: Forward journey**\n- Allie walks from position 0 to position +500\n- Distance traveled: 500 inches\n- Crumb not found (crumb is at position -20)\n\n**Step 2: Backward journey**\n- Allie walks from position +500 toward position -500\n- She encounters the crumb at position -20\n- Distance from +500 to -20: |500 - (-20)| = 520 inches\n- Allie stops at the crumb\n\n**Total distance traveled by Allie:**\n500 + 520 = 1020 inches\n\n## Terry's Strategy Analysis\n\nTerry is omniscient and knows the crumb is at position -20.\n\n**Optimal strategy for Terry:**\n- Walk directly from origin (position 0) to crumb (position -20)\n- Distance traveled: |0 - (-20)| = 20 inches\n\n## Ratio Calculation\n\nRatio of Allie's to Terry's traveled distances:\n$$\\frac{\\text{Allie's distance}}{\\text{Terry's distance}} = \\frac{1020}{20} = 51$$\n\n## Verification\n\nLet me verify this calculation:\n- Allie's path: 0 \u2192 +500 \u2192 -20\n- Distance: 500 + 520 = 1020 \u2713\n- Terry's path: 0 \u2192 -20  \n- Distance: 20 \u2713\n- Ratio: 1020/20 = 51 \u2713\n\n\\boxed{51}\n\nConfidence: 100%",
+  "extracted_answer": "51",
+  "latency_seconds": 11.28,
+  "input_tokens": 501,
+  "output_tokens": 509,
+  "timestamp": "2026-02-22T21:06:52Z",
+  "confidence": 100,
+  "error": null
+}

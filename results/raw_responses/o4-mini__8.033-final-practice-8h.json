@@ -1,0 +1,12 @@
+{
+  "model_name": "o4-mini",
+  "question_id": "8.033-final-practice-8h",
+  "full_response": "Below is a self\u2010contained derivation.  We use units with G=c=1.\n\n1)  Define the \u201ctortoise\u201d coordinate  \n   r*\u2261r+2M\u2009ln|r/2M\u22121|,  \n   and null coordinates  \n   u\u2261t\u2212r*,\u2003v\u2261t+r*.  \n\n2)  The Kruskal null coordinates are  \n   U=\u2212e^{\u2212u/(4M)},\u2003V= e^{\u2009v/(4M)}.  \n\n3)  The condition r>2M (the two exterior regions) in Kruskal is  \n   UV<0.  Moreover the two disjoint components are  \n     Region I (the \u201cright\u201d exterior):   U<0, V>0  \n     Region III (the \u201cleft\u201d exterior): U>0, V<0  \n\n4)  As r\u2192\u221e (both asymptotic ends) we have r*\u2192+\u221e, so for finite t,  \n     u=t\u2212r*\u2192\u2212\u221e \u21d2 U\u2192\u2212\u221e,  \n     v=t+r*\u2192+\u221e \u21d2 V\u2192+\u221e,  \n   in Region I (U<0,V>0),  \n   and by crossing the throat one goes to Region III where U>0, V<0 and again |U|,|V|\u2192\u221e.  \n\nHence the two asymptotic regions (the two ends of the Einstein\u2013Rosen bridge) in (U,V)\u2010space are simply the two disconnected regions of r>2M, namely  \n\n\u2003Region I:\u2003U<0,\u2002V>0  \n\u2003Region III:\u2002U>0,\u2002V<0.  \n\n\\boxed{\\text{The two exterior (asymptotic) regions are given by }(U<0,\\;V>0)\\text{ and }(U>0,\\;V<0)\\,.}\n\nConfidence: 95%",
+  "extracted_answer": "\\text{The two exterior (asymptotic) regions are given by }(U<0,\\;V>0)\\text{ and }(U>0,\\;V<0)\\,.",
+  "latency_seconds": 13.41,
+  "input_tokens": 845,
+  "output_tokens": 2088,
+  "timestamp": "2026-02-21T22:20:53Z",
+  "confidence": 95,
+  "error": null
+}

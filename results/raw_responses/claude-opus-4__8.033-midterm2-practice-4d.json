@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-midterm2-practice-4d",
+  "full_response": "I need to manipulate the Einstein equation to get it into the requested form.\n\nGiven: $R_{ab} - \\frac{1}{2}Rg_{ab} + \\Lambda g_{ab} = 8\\pi T_{ab}$\n\nGoal: Show this can be written as $R_{ab} = 8\\pi T_{ab} + g_{ab}(\\Lambda - 4\\pi T)$\n\n**Step 1: Take the trace of the Einstein equation**\n\nTo take the trace, I'll contract both sides with $g^{ab}$:\n\n$g^{ab}R_{ab} - \\frac{1}{2}g^{ab}Rg_{ab} + \\Lambda g^{ab}g_{ab} = 8\\pi g^{ab}T_{ab}$\n\nUsing the properties:\n- $g^{ab}R_{ab} = R$ (definition of trace of Ricci tensor)\n- $g^{ab}g_{ab} = 4$ (in 4D spacetime)\n- $g^{ab}T_{ab} = T$ (definition of trace of stress-energy tensor)\n\nThis gives:\n$R - \\frac{1}{2}R \\cdot 4 + \\Lambda \\cdot 4 = 8\\pi T$\n\n$R - 2R + 4\\Lambda = 8\\pi T$\n\n$-R + 4\\Lambda = 8\\pi T$\n\nTherefore:\n$R = 4\\Lambda - 8\\pi T$\n\n**Step 2: Substitute this expression for R back into the original Einstein equation**\n\nStarting with:\n$R_{ab} - \\frac{1}{2}Rg_{ab} + \\Lambda g_{ab} = 8\\pi T_{ab}$\n\nSubstitute $R = 4\\Lambda - 8\\pi T$:\n\n$R_{ab} - \\frac{1}{2}(4\\Lambda - 8\\pi T)g_{ab} + \\Lambda g_{ab} = 8\\pi T_{ab}$\n\n$R_{ab} - 2\\Lambda g_{ab} + 4\\pi T g_{ab} + \\Lambda g_{ab} = 8\\pi T_{ab}$\n\n$R_{ab} - \\Lambda g_{ab} + 4\\pi T g_{ab} = 8\\pi T_{ab}$\n\n**Step 3: Rearrange to get the desired form**\n\n$R_{ab} = 8\\pi T_{ab} + \\Lambda g_{ab} - 4\\pi T g_{ab}$\n\n$R_{ab} = 8\\pi T_{ab} + g_{ab}(\\Lambda - 4\\pi T)$\n\nThis is exactly the form we were asked to show.\n\n\\boxed{R_{ab} = 8\\pi T_{ab} + g_{ab}(\\Lambda - 4\\pi T)}\n\nConfidence: 95%",
+  "extracted_answer": "R_{ab} = 8\\pi T_{ab} + g_{ab}(\\Lambda - 4\\pi T)",
+  "latency_seconds": 12.28,
+  "input_tokens": 1042,
+  "output_tokens": 691,
+  "timestamp": "2026-02-22T21:32:28Z",
+  "confidence": 95,
+  "error": null
+}

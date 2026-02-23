@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-ps1-1a",
+  "full_response": "I need to find the tangent vector to the parametric curve v(\u03bb) = (sin(\u03bb\u00b2), ln(\u03bb+1), 2\u03bb\u00b2-1) at any value of \u03bb.\n\nThe tangent vector to a parametric curve is found by taking the derivative of the position vector with respect to the parameter.\n\nGiven: v(\u03bb) = (sin(\u03bb\u00b2), ln(\u03bb+1), 2\u03bb\u00b2-1)\n\nThe tangent vector is:\n$$\\frac{dv}{d\\lambda} = \\left(\\frac{d}{d\\lambda}\\sin(\\lambda^2), \\frac{d}{d\\lambda}\\ln(\\lambda+1), \\frac{d}{d\\lambda}(2\\lambda^2-1)\\right)$$\n\nLet me compute each component:\n\n**First component:**\n$$\\frac{d}{d\\lambda}\\sin(\\lambda^2) = \\cos(\\lambda^2) \\cdot \\frac{d}{d\\lambda}(\\lambda^2) = \\cos(\\lambda^2) \\cdot 2\\lambda = 2\\lambda\\cos(\\lambda^2)$$\n\n**Second component:**\n$$\\frac{d}{d\\lambda}\\ln(\\lambda+1) = \\frac{1}{\\lambda+1} \\cdot \\frac{d}{d\\lambda}(\\lambda+1) = \\frac{1}{\\lambda+1} \\cdot 1 = \\frac{1}{\\lambda+1}$$\n\nNote: This is valid for \u03bb > -1 to ensure ln(\u03bb+1) is defined.\n\n**Third component:**\n$$\\frac{d}{d\\lambda}(2\\lambda^2-1) = 2 \\cdot 2\\lambda - 0 = 4\\lambda$$\n\nTherefore, the tangent vector to the curve at any value of \u03bb is:\n\n$$\\frac{dv}{d\\lambda} = \\left(2\\lambda\\cos(\\lambda^2), \\frac{1}{\\lambda+1}, 4\\lambda\\right)$$\n\n\\boxed{\\frac{dv}{d\\lambda} = \\left(2\\lambda\\cos(\\lambda^2), \\frac{1}{\\lambda+1}, 4\\lambda\\right)}\n\nConfidence: 100%",
+  "extracted_answer": "\\frac{dv}{d\\lambda} = \\left(2\\lambda\\cos(\\lambda^2), \\frac{1}{\\lambda+1}, 4\\lambda\\right)",
+  "latency_seconds": 8.77,
+  "input_tokens": 999,
+  "output_tokens": 543,
+  "timestamp": "2026-02-22T21:15:22Z",
+  "confidence": 100,
+  "error": null
+}

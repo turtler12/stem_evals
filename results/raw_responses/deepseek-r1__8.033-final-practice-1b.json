@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "In special and general relativity, a null vector is defined within the context of a Lorentzian metric. For a non-zero vector \\( v^\\mu \\) in spacetime, the squared norm is computed using the metric tensor \\( g_{\\mu\\nu} \\) as \\( g_{\\mu\\nu} v^\\mu v^\\nu \\). If this squared norm equals zero, the vector is classified as null. Geometrically, null vectors lie on the light cone and represent trajectories of massless particles like photons. They are distinct from timelike vectors (negative norm) and spacelike vectors (positive norm).\n\n\\boxed{A null vector is a non-zero vector whose squared norm with respect to the spacetime metric is zero.}\nConfidence: 100%",
+  "extracted_answer": "A null vector is a non-zero vector whose squared norm with respect to the spacetime metric is zero.",
+  "latency_seconds": 16.0,
+  "input_tokens": 819,
+  "output_tokens": 778,
+  "timestamp": "2026-02-23T03:59:26Z",
+  "confidence": 100,
+  "error": null
+}

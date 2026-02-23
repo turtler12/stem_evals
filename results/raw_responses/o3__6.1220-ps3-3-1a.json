@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "6.1220-ps3-3-1a",
+  "full_response": "Step-by-step solution\n\n1.  Set-up  \n\u2003\u2022 The log runs from \u2013500 in to +500 in.  \n\u2003\u2022 Allie starts at 0 and first walks in the + direction to +500, then turns around and walks in the \u2013 direction until she finds the crumb.  \n\u2003\u2022 The crumb is at \u201320 in.  \n\u2003\u2022 Terry starts at 0 and, knowing the location, walks directly to \u201320 in.\n\n2.  Distance Allie walks  \n\u2003a. From 0 to +500\u2003\u21d2\u2003500 in.  \n\u2003b. From +500 back to 0\u2003\u21d2\u2003500 in.  \n\u2003c. From 0 to \u201320\u2003\u2003\u2003 \u21d2\u2003 20 in.  \n\n\u2003Total for Allie: 500 + 500 + 20 = 1020 in.\n\n3.  Distance Terry walks  \n\u2003Directly from 0 to \u201320: 20 in.\n\n4.  Ratio  \n\u2003(Allie\u2019s distance) / (Terry\u2019s distance) = 1020 / 20 = 51.\n\n\\boxed{51}\n\nConfidence: 0.86",
+  "extracted_answer": "51",
+  "latency_seconds": 5.53,
+  "input_tokens": 441,
+  "output_tokens": 455,
+  "timestamp": "2026-02-23T02:13:34Z",
+  "confidence": null,
+  "error": null
+}

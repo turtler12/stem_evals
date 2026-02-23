@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4.1",
+  "question_id": "8.033-ps6-1a",
+  "full_response": "Let's solve the problem step by step.\n\n**Goal:**  \nGiven a general (possibly non-symmetric) rank-2 tensor \\( T_{ab} \\), define its symmetrization \\( T_{(ab)} \\), subject to the requirement that (1) it is constructed only from \\( T_{ab} \\), and (2) if \\( T_{ab} \\) is symmetric, \\( T_{(ab)} = T_{ab} \\).\n\n---\n\n### Step 1: Understand What \"Symmetrization\" Means\n\nSymmetrization over two indices means forming a tensor that is completely symmetric under exchange of those indices.\n\nFor a rank-2 tensor, this means:\n\\[\nT_{(ab)} = T_{(ba)}\n\\]\n\nWe want an operation that, applied to any tensor, gives a *symmetric part* (the average under all permutations of the indices being symmetrized).\n\n---\n\n### Step 2: Explicit Symmetrization\n\nFor two indices \\( a \\), \\( b \\), the symmetrized part is:\n\\[\nT_{(ab)} = \\frac{1}{2} (T_{ab} + T_{ba})\n\\]\n\n**Check requirement 2**:  \nIf \\( T_{ab} = T_{ba} \\) (tensor is symmetric), then:\n\\[\nT_{(ab)} = \\frac{1}{2} (T_{ab} + T_{ab}) = T_{ab}\n\\]\nwhich is what is required.\n\n---\n\n### Step 3: Final Formula\n\nSo, the formula for the symmetrization of \\( T_{ab} \\) is:\n\\[\nT_{(ab)} = \\frac{1}{2} (T_{ab} + T_{ba})\n\\]\n\n---\n\n### Step 4: Boxed Final Answer\n\n\\[\n\\boxed{\nT_{(ab)} = \\frac{1}{2} (T_{ab} + T_{ba})\n}\n\\]\n\n---\n\n**Confidence: 100%**",
+  "extracted_answer": "T_{(ab)} = \\frac{1}{2} (T_{ab} + T_{ba})",
+  "latency_seconds": 3.93,
+  "input_tokens": 899,
+  "output_tokens": 412,
+  "timestamp": "2026-02-23T00:12:18Z",
+  "confidence": 100,
+  "error": null
+}

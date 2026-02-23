@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4o",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "To solve the problem, we need to find the energy of each photon after the Higgs boson decays into two photons in the rest frame of the Higgs.\n\n**Assumptions and Considerations:**\n1. We assume the decay occurs in the rest frame of the Higgs, where the total momentum is zero before and after the decay since the Higgs is at rest.\n2. The decay process conserves both energy and momentum.\n\n**Step-by-Step Solution:**\n\n1. **Rest Frame of the Higgs:**\n   - The rest energy of the Higgs boson is \\( E_{\\text{Higgs}} = m_h c^2 = 125 \\, \\text{GeV} \\).\n\n2. **Energy Conservation:**\n   \\[\n   E_{\\text{Higgs}} = E_1 + E_2\n   \\]\n   where \\( E_1 \\) and \\( E_2 \\) are the energies of the two photons.\n\n3. **Momentum Conservation:**\n   - Since the Higgs is initially at rest, the momentum of the system is zero. The two photons must be emitted in opposite directions to conserve momentum.\n   \\[\n   \\vec{p}_1 + \\vec{p}_2 = 0\n   \\]\n   This implies \\( |\\vec{p}_1| = |\\vec{p}_2| \\).\n\n4. **Photon Energy and Momentum Relationship:**\n   - For photons, the relationship between energy and momentum is \\( E = pc \\). Therefore, for each photon,\n   \\[\n   E_1 = p_1 c \\quad \\text{and} \\quad E_2 = p_2 c\n   \\]\n   Since \\( |\\vec{p}_1| = |\\vec{p}_2| \\), we have \\( E_1 = E_2 \\).\n\n5. **Solving for Photon Energies:**\n   - From energy conservation:\n   \\[\n   E_1 + E_2 = 125 \\, \\text{GeV}\n   \\]\n   Since \\( E_1 = E_2 \\), we can substitute:\n   \\[\n   2E_1 = 125 \\, \\text{GeV}\n   \\]\n   Therefore,\n   \\[\n   E_1 = \\frac{125 \\, \\text{GeV}}{2} = 62.5 \\, \\text{GeV}\n   \\]\n\n6. **Conclusion:**\n   - In the rest frame of the Higgs, each photon has an energy of \\( 62.5 \\, \\text{GeV} \\).\n\n\\[\n\\boxed{62.5 \\, \\text{GeV} \\text{ per photon}}\n\\]\nConfidence: 100%",
+  "extracted_answer": "62.5 \\, \\text{GeV} \\text{ per photon}",
+  "latency_seconds": 3.99,
+  "input_tokens": 888,
+  "output_tokens": 573,
+  "timestamp": "2026-02-21T22:17:04Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "gemini-2.5-flash",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "A null vector (also known as a light-like vector) is a spacetime 4-vector whose inner product (or squared length) with itself is zero.\n\nMathematically, for a 4-vector $V^\\mu$, it is null if it satisfies:\n$V \\cdot V = g_{\\mu\\nu} V^\\mu V^\\nu = 0$\n\nIn flat Minkowski spacetime with the metric signature $(-+++)$ (where $g_{00} = -1$ and $g_{ii} = 1$ for $i=1,2,3$), this condition expands to:\n$-(V^0)^2 + (V^1)^2 + (V^2)^2 + (V^3)^2 = 0$\n\nPhysically, null vectors describe intervals or 4-momenta associated with phenomena or particles that propagate at the speed of light. Examples include the worldline displacement of a photon or the 4-momentum of a massless particle.\n\n\\boxed{A null vector is a spacetime 4-vector whose inner product with itself is zero, i.e., $g_{\\mu\\nu} V^\\mu V^\\nu = 0$. Such vectors describe light-like intervals or the 4-momentum of massless particles traveling at the speed of light.}\n\nConfidence: 100%",
+  "extracted_answer": "A null vector is a spacetime 4-vector whose inner product with itself is zero, i.e., $g_{\\mu\\nu} V^\\mu V^\\nu = 0$. Such vectors describe light-like intervals or the 4-momentum of massless particles traveling at the speed of light.",
+  "latency_seconds": 9.01,
+  "input_tokens": 877,
+  "output_tokens": 280,
+  "timestamp": "2026-02-21T22:21:50Z",
+  "confidence": 100,
+  "error": null
+}

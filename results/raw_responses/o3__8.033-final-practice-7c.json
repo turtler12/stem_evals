@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-7c",
+  "full_response": "For any two vector fields on a (pseudo-)Riemannian manifold, say  \n\n\u2022 V^a(x)  \u2013 the vector we want to \u201cdifferentiate,\u201d and  \n\u2022 W^a(x)  \u2013 the vector that specifies the direction,\n\nthe directional (covariant) derivative of V^a in the direction of W^a is obtained by contracting W^a with the covariant derivative operator \u2207_a:\n\nD_W V^b \u2261 W^a \u2207_a V^b.          (1)\n\nIn a coordinate basis this becomes, using the definition \u2207_a V^b = \u2202_a V^b + \u0393^b_{ac} V^c,\n\nD_W V^b = W^a(\u2202_a V^b + \u0393^b_{ac} V^c).          (2)\n\nEquation (2) gives the explicit component form in terms of the Christoffel symbols \u0393^b_{ac}.\n\n\\boxed{\\,\\displaystyle \\text{Directional derivative of }V^{b}\\text{ along }W^{a}: \\quad D_{W}V^{b}=W^{a}\\nabla_{a}V^{b}=W^{a}\\bigl(\\partial_{a}V^{b}+\\Gamma^{b}_{\\;ac}V^{c}\\bigr)\\,}\n\nConfidence: 91%",
+  "extracted_answer": "\\,\\displaystyle \\text{Directional derivative of }V^{b}\\text{ along }W^{a}: \\quad D_{W}V^{b}=W^{a}\\nabla_{a}V^{b}=W^{a}\\bigl(\\partial_{a}V^{b}+\\Gamma^{b}_{\\;ac}V^{c}\\bigr)\\,",
+  "latency_seconds": 6.42,
+  "input_tokens": 880,
+  "output_tokens": 499,
+  "timestamp": "2026-02-21T22:18:51Z",
+  "confidence": 91,
+  "error": null
+}

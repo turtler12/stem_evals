@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-final-practice-3a",
+  "full_response": "The curve is defined by constant spatial coordinates \\(r = r_0\\), \\(\\theta = \\theta_0\\), \\(\\phi = \\phi_0\\) in the Schwarzschild metric, with \\(r_0 > 2GM\\). The only varying coordinate is \\(t\\), so the curve represents the worldline of a stationary observer. Parameterizing by proper time \\(\\tau\\) yields the 4-velocity as the tangent vector.\n\nThe proper time interval is \\(d\\tau = \\sqrt{1 - 2GM/r_0} \\, dt\\), so \\(dt/d\\tau = 1/\\sqrt{1 - 2GM/r_0}\\). Since \\(dr/d\\tau = d\\theta/d\\tau = d\\phi/d\\tau = 0\\), the 4-velocity components are\n\\[\nU^\\mu = \\left( \\frac{1}{\\sqrt{1 - \\frac{2GM}{r_0}}}, 0, 0, 0 \\right).\n\\]\nThis vector satisfies the normalization condition \\(g_{\\mu\\nu} U^\\mu U^\\nu = -1\\).\n\n\\boxed{U^\\mu = \\left( \\frac{1}{\\sqrt{1 - \\frac{2GM}{r_0}}}, 0, 0, 0 \\right)}\n\nConfidence: 100%",
+  "extracted_answer": "U^\\mu = \\left( \\frac{1",
+  "latency_seconds": 62.8,
+  "input_tokens": 861,
+  "output_tokens": 3064,
+  "timestamp": "2026-02-23T04:03:56Z",
+  "confidence": 100,
+  "error": null
+}

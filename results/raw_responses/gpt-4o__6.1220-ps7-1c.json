@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4o",
+  "question_id": "6.1220-ps7-1c",
+  "full_response": "To solve this problem, we must maximize the total utility \\( u_A + u_B \\). The utilities are defined as:\n\n\\[\nu_A = \\begin{cases} \n0, & \\text{if } x_A + x_B > 1 \\\\ \nx_A(1 - x_A - x_B), & \\text{if } x_A + x_B \\leq 1 \n\\end{cases}\n\\]\n\n\\[\nu_B = \\begin{cases} \n0, & \\text{if } x_A + x_B > 1 \\\\ \nx_B(1 - x_A - x_B), & \\text{if } x_A + x_B \\leq 1 \n\\end{cases}\n\\]\n\nThus, the total utility is:\n\n\\[\nu_A + u_B = \\begin{cases} \n0, & \\text{if } x_A + x_B > 1 \\\\ \nx_A(1 - x_A - x_B) + x_B(1 - x_A - x_B), & \\text{if } x_A + x_B \\leq 1 \n\\end{cases}\n\\]\n\nFor \\( x_A + x_B \\leq 1 \\), the expression for total utility simplifies to:\n\n\\[ \nu_A + u_B = (x_A + x_B)(1 - x_A - x_B)\n\\]\n\nLet \\( y = x_A + x_B \\), where \\( 0 \\leq y \\leq 1 \\). This reformulates the problem as maximizing:\n\n\\[ \nu_A + u_B = y(1 - y) \n\\]\n\nThis is a quadratic function that reaches its maximum at the vertex. The vertex of a parabola \\( y = ax^2 + bx + c \\) is at \\( x = -\\frac{b}{2a} \\). In this case:\n\n- \\( a = -1 \\)\n- \\( b = 1 \\)\n\nThe vertex is at \\( y = -\\frac{1}{2(-1)} = \\frac{1}{2} \\).\n\nPlug \\( y = \\frac{1}{2} \\) back into \\( u_A + u_B = y(1-y) \\):\n\n\\[\nu_A + u_B = \\frac{1}{2} \\left(1 - \\frac{1}{2}\\right) = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}\n\\]\n\nNow, to achieve this total utility, we need \\( x_A + x_B = \\frac{1}{2} \\). Without loss of generality, assume \\( x_A = x_B = \\frac{1}{4} \\). That way:\n\n- \\( x_A + x_B = \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2} \\)\n- \\( u_A = \\frac{1}{4} \\left(1 - \\frac{1}{2}\\right) = \\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8} \\)\n- \\( u_B = \\frac{1}{4} \\left(1 - \\frac{1}{2}\\right) = \\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8} \\)\n\nThus, \\( u_A + u_B = \\frac{1}{8} + \\frac{1}{8} = \\frac{1}{4} \\).\n\nWe conclude that the maximum total utility is achieved when \\( x_A = x_B = \\frac{1}{4} \\).\n\n\\[\n\\boxed{\\left(x_A, x_B\\right) = \\left(\\frac{1}{4}, \\frac{1}{4}\\right)}\n\\]\n\nConfidence: 100%",
+  "extracted_answer": "\\left(x_A, x_B\\right) = \\left(\\frac{1}{4}, \\frac{1}{4}\\right)",
+  "latency_seconds": 5.26,
+  "input_tokens": 439,
+  "output_tokens": 810,
+  "timestamp": "2026-02-23T00:07:20Z",
+  "confidence": 100,
+  "error": null
+}

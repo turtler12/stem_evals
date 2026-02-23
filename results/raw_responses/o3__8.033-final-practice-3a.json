@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-3a",
+  "full_response": "The Schwarzschild line\u2013element  \n\nds\u00b2 = \u2212(1 \u2212 2GM/r) dt\u00b2 + dr\u00b2/(1 \u2212 2GM/r) + r\u00b2(d\u03b8\u00b2 + sin\u00b2\u03b8 d\u03c6\u00b2)  \n\nis written in the standard coordinates x^a = (t,r,\u03b8,\u03c6).\n\nThe world-line specified in the problem is  \n\nx^a(\u03bb) = ( t(\u03bb), r(\u03bb)=r\u2080, \u03b8(\u03bb)=\u03b8\u2080, \u03c6(\u03bb)=\u03c6\u2080 ) ,\u2003\u2003r\u2080 > 2GM .\n\n1.  Construct the tangent (4-velocity) vector  \n\nT^a \u2261 dx^a/d\u03bb  \n\u2003\u2003= ( dt/d\u03bb , 0 , 0 , 0 ).\n\n2.  If we choose the parameter \u03bb to be the proper time \u03c4 of the particle that sits at fixed (r\u2080,\u03b8\u2080,\u03c6\u2080), the normalization condition g_{ab}U^aU^b = \u22121 gives  \n\ng_{tt}(U^t)\u00b2 = \u22121\u2003\u21d2\u2003\u2212(1\u22122GM/r\u2080)(U^t)\u00b2 = \u22121  \n\u2003\u21d2\u2003U^t = dt/d\u03c4 = 1/\u221a(1\u22122GM/r\u2080).\n\nHence the properly normalized 4-velocity (tangent) is  \n\nU^a = ( (1\u22122GM/r\u2080)^{\u22121/2} , 0 , 0 , 0 ) .\n\nEither expression (unnormalized or normalized) is a valid tangent; the second is the one most often used because it has unit timelike norm.\n\n\\boxed{ \\displaystyle T^a = \\left( \\frac{dt}{d\\lambda},\\, 0,\\, 0,\\, 0 \\right)\n\\;\\; ,\\qquad\nU^a = \\left( \\frac{1}{\\sqrt{1-2GM/r_0}},\\, 0,\\, 0,\\, 0 \\right) \\text{ for } \\lambda = \\tau }\n\nConfidence: 0.31",
+  "extracted_answer": "\\displaystyle T^a = \\left( \\frac{dt",
+  "latency_seconds": 14.66,
+  "input_tokens": 868,
+  "output_tokens": 1490,
+  "timestamp": "2026-02-21T22:18:28Z",
+  "confidence": null,
+  "error": null
+}

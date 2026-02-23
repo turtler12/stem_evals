@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps7-2c",
+  "full_response": "The transformation between two inertial frames related by a boost is linear, meaning each coordinate in the unprimed frame is a linear combination of the coordinates in the primed frame. This linear relationship is given by \\(x^\\mu = \\Lambda^\\mu_{\\ \\nu'} x^{\\nu'}\\), where \\(\\Lambda^\\mu_{\\ \\nu'}\\) is the constant Lorentz transformation matrix. The Jacobian matrix of partial derivatives \\(\\partial x^\\mu / \\partial x^{\\nu'}\\) is therefore equal to the coefficients \\(\\Lambda^\\mu_{\\ \\nu'}\\).\n\n\\boxed{\\dfrac{\\partial x^\\mu}{\\partial x^{\\nu'}} = \\Lambda^\\mu_{\\ \\nu'}}\n\nConfidence: 100%",
+  "extracted_answer": "\\dfrac{\\partial x^\\mu",
+  "latency_seconds": 50.3,
+  "input_tokens": 870,
+  "output_tokens": 2537,
+  "timestamp": "2026-02-23T03:31:38Z",
+  "confidence": 100,
+  "error": null
+}

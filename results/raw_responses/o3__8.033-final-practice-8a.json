@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-8a",
+  "full_response": "We want  \n\nr_* = \u222b r \\, \\dfrac{dr}{\\,r-2GM\\,}.                                   (1)\n\n1.  Evaluate the integrand  \n\n   r = (r-2GM) + 2GM  \u21d2  \\dfrac{r}{r-2GM} = 1 + \\dfrac{2GM}{r-2GM}.   (2)\n\n2.  Integrate term-by-term  \n\n   r_* = \u222b 1\\,dr + 2GM \u222b \\dfrac{dr}{r-2GM}  \n        = r + 2GM \\ln|r-2GM| + C.                                     (3)\n\n   One usually absorbs the arbitrary constant C by writing the log in dimensionless\n   form:\n\n   r_* = r + 2GM \\ln\\!\\left|\\dfrac{r}{2GM}-1\\right|.                  (4)\n\n3.  Behaviour near the horizon r \u2192 2GM  \n\n   As r \u2192 2GM^{+} (from outside), |r/2GM-1| \u2192 0^{+} and ln \u2192 \u2212\u221e, so  \n\n   r_* \u2192 \u2212\u221e.                                                          (5)\n\n   The same divergence (to \u2212\u221e) occurs when the horizon is approached from inside.\n\n4.  Why \u201ctortoise\u201d coordinate?  \n   The derivative dr_*/dr = r/(r-2GM) blows up at r = 2GM, so an object that moves a\n   finite radial distance dr near the horizon covers an *infinitely* large distance\n   in the r_* coordinate.  Consequently motion in r_* slows to a crawl as one nears\n   the horizon\u2014like a tortoise\u2014hence the name.\n\n\\boxed{\\,r_* = r + 2GM \\ln\\!\\left|\\dfrac{r}{2GM}-1\\right|,\\quad r_*\\xrightarrow{\\,r\\to 2GM\\,}-\\infty\\,}\n\nConfidence: 85%",
+  "extracted_answer": "\\,r_* = r + 2GM \\ln\\!\\left|\\dfrac{r}{2GM}-1\\right|,\\quad r_*\\xrightarrow{\\,r\\to 2GM\\,}-\\infty\\,",
+  "latency_seconds": 12.3,
+  "input_tokens": 890,
+  "output_tokens": 1020,
+  "timestamp": "2026-02-21T22:19:02Z",
+  "confidence": 85,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4.1",
+  "question_id": "8.033-midterm2-practice-2e",
+  "full_response": "Let's solve the problem step by step.\n\n**Goal:** Show that for an arbitrary tensor \\(\\omega_{ab}\\) (no symmetry assumed, possibly not even real), and **for any vector** \\(U^a\\), we have:\n\\[\n\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b\n\\]\nwhere the symmetrized part is defined as \\(\\omega_{(ab)} = \\frac{1}{2}(\\omega_{ab} + \\omega_{ba})\\).\n\n---\n\n## Step 1: Write \\(\\omega_{ab}\\) as symmetric + antisymmetric parts\n\nAny rank-2 tensor can be decomposed as\n\\[\n\\omega_{ab} = \\omega_{(ab)} + \\omega_{[ab]}\n\\]\nwhere\n- Symmetric part: \\(\\omega_{(ab)} = \\frac{1}{2}(\\omega_{ab} + \\omega_{ba})\\)\n- Antisymmetric part: \\(\\omega_{[ab]} = \\frac{1}{2}(\\omega_{ab} - \\omega_{ba})\\)\n\n---\n\n## Step 2: Substitute into the contraction\n\n\\[\n\\omega_{ab} U^a U^b = \\big(\\omega_{(ab)} + \\omega_{[ab]}\\big) U^a U^b = \\omega_{(ab)} U^a U^b + \\omega_{[ab]} U^a U^b\n\\]\n\nSo to show \\(\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b\\), it suffices to show that\n\\[\n\\omega_{[ab]} U^a U^b = 0\n\\]\n\n---\n\n## Step 3: Evaluate \\(\\omega_{[ab]} U^a U^b\\)\n\nBy definition:\n\\[\n\\omega_{[ab]} U^a U^b = \\frac{1}{2}(\\omega_{ab} - \\omega_{ba}) U^a U^b\n\\]\nExpand:\n\\[\n= \\frac{1}{2} \\omega_{ab} U^a U^b - \\frac{1}{2} \\omega_{ba} U^a U^b\n\\]\n\nBut indices are **dummy indices** in summation: we can relabel \\(a \\leftrightarrow b\\) in the second term:\n\\[\n\\omega_{ba} U^a U^b \n= \\omega_{ba} U^a U^b\n= \\omega_{ab} U^b U^a\n\\]\nBut, for any vectors, \\(U^a U^b = U^b U^a\\) (scalar field multiplication is commutative).\n\nSo\n\\[\n\\omega_{ba} U^a U^b = \\omega_{ab} U^a U^b\n\\]\nThus:\n\\[\n\\omega_{[ab]} U^a U^b \n= \\frac{1}{2} \\omega_{ab} U^a U^b - \\frac{1}{2} \\omega_{ab} U^a U^b = 0\n\\]\n\n---\n\n## Step 4: Collect result\n\nTherefore:\n\\[\n\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b + 0 = \\omega_{(ab)} U^a U^b\n\\]\n------\n\n\\[\n\\boxed{\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b}\n\\]\n\nConfidence: 100%",
+  "extracted_answer": "\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b",
+  "latency_seconds": 6.88,
+  "input_tokens": 859,
+  "output_tokens": 773,
+  "timestamp": "2026-02-23T00:18:35Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4o",
+  "question_id": "8.033-ps5-5a",
+  "full_response": "To solve the problem of expressing the particle's 3-velocity in terms of the four-velocity components \\( U^\\mu \\), we begin with the definition of the four-velocity and its relation to the rest and 3-velocity components.\n\n### Step-by-Step Solution\n\n1. **Definition of Four-Velocity:**\n   The four-velocity \\( U^\\mu = (U^0, U^1, U^2, U^3) \\) is related to the spacetime coordinates by:\n   \\[\n   U^\\mu = \\frac{dx^\\mu}{d\\tau}\n   \\]\n   where \\( d\\tau \\) is the proper time interval.\n\n2. **Component Breakdown:**\n   In special relativity, the components of the four-velocity \\( U^\\mu \\) are given by:\n   \\[\n   U^0 = \\gamma \\, c, \\quad U^i = \\gamma \\, v^i\n   \\]\n   where \\( \\gamma = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}} \\) is the Lorentz factor, \\( c \\) is the speed of light, and \\( v^i \\) are the components of the 3-velocity vector \\( \\vec{v} \\).\n\n3. **Expressing 3-Velocity Components:**\n   To find \\( v^i \\), rearrange the expressions for the spatial components of four-velocity:\n   \\[\n   v^i = \\frac{U^i}{U^0/c}\n   \\]\n   This uses the fact that \\( \\gamma = \\frac{U^0}{c} \\).\n\n4. **Relativistic 3-Velocity:**\n   Therefore, the 3-velocity expressed in terms of the components of the four-velocity \\( U^\\mu \\) is:\n   \\[\n   v^i = c \\frac{U^i}{U^0}\n   \\]\n\n5. **Generalizing to All Components:**\n   The expression \\( v^i \\) applies for each spatial component (i.e., \\( i = 1, 2, 3 \\)) of the four-velocity \\( U^\\mu \\).\n\n### Final Answer\n\nThe particle's 3-velocity, expressed in terms of the components of its four-velocity \\( U^\\mu \\), is given by:\n\\[\n\\boxed{v^i = c \\frac{U^i}{U^0}}\n\\]\n\nConfidence: 100%",
+  "extracted_answer": "v^i = c \\frac{U^i}{U^0}",
+  "latency_seconds": 5.24,
+  "input_tokens": 884,
+  "output_tokens": 528,
+  "timestamp": "2026-02-22T23:59:16Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-ps9-3",
+  "full_response": "I need to find the 4-momentum of a particle moving in the x\u2081 direction with energy \u03b3m in our reference frame.\n\nGiven information:\n- Particle has rest mass m\n- Particle moves in the +x\u2081 direction (away from us)\n- In our frame, the particle's energy is \u03b3m\n- Need to express 4-momentum in terms of \u03b3 and m (not v)\n\nThe 4-momentum is defined as:\n$$P^a = (P^0, P^1, P^2, P^3) = (E/c, p^x, p^y, p^z)$$\n\nSince we're working in units where c = 1, this becomes:\n$$P^a = (E, p^x, p^y, p^z)$$\n\nFrom the given information:\n- Energy E = \u03b3m\n- Motion is only in x\u2081 direction, so p^y = p^z = 0\n\nTo find p^x, I'll use the invariant mass relation:\n$$P^a P_a = -m^2$$\n\nIn our signature (-,+,+,+), this becomes:\n$$-E^2 + |p|^2 = -m^2$$\n\nSince motion is only in x direction, |p|\u00b2 = (p^x)\u00b2. Substituting E = \u03b3m:\n$$-(\u03b3m)^2 + (p^x)^2 = -m^2$$\n$$-\u03b3^2m^2 + (p^x)^2 = -m^2$$\n$$(p^x)^2 = \u03b3^2m^2 - m^2$$\n$$(p^x)^2 = m^2(\u03b3^2 - 1)$$\n\nUsing the identity \u03b3\u00b2 - 1 = \u03b3\u00b2\u03b2\u00b2 (where \u03b2 = v/c):\n$$(p^x)^2 = m^2\u03b3^2\u03b2^2$$\n$$p^x = \u00b1m\u03b3\u03b2$$\n\nSince the particle is moving away from us in the +x\u2081 direction, p^x > 0:\n$$p^x = m\u03b3\u03b2$$\n\nHowever, we need to express this in terms of \u03b3 and m only, not \u03b2. From \u03b3 = 1/\u221a(1-\u03b2\u00b2):\n$$\u03b3^2 = \\frac{1}{1-\u03b2^2}$$\n$$\u03b3^2(1-\u03b2^2) = 1$$\n$$\u03b3^2 - \u03b3^2\u03b2^2 = 1$$\n$$\u03b3^2\u03b2^2 = \u03b3^2 - 1$$\n$$\u03b2 = \\frac{\\sqrt{\u03b3^2 - 1}}{\u03b3}$$\n\nTherefore:\n$$p^x = m\u03b3 \\cdot \\frac{\\sqrt{\u03b3^2 - 1}}{\u03b3} = m\\sqrt{\u03b3^2 - 1}$$\n\nThe 4-momentum in our reference frame is:\n$$P^a = (\u03b3m, m\\sqrt{\u03b3^2 - 1}, 0, 0)$$\n\nLet me verify this satisfies the invariant mass condition:\n$$P^a P_a = -(\u03b3m)^2 + m^2(\u03b3^2 - 1) + 0 + 0$$\n$$= -\u03b3^2m^2 + m^2\u03b3^2 - m^2$$\n$$= -m^2$$ \u2713\n\n\\boxed{P^a = (\u03b3m, m\\sqrt{\u03b3^2 - 1}, 0, 0)}\n\nConfidence: 95%",
+  "extracted_answer": "P^a = (\u03b3m, m\\sqrt{\u03b3^2 - 1}, 0, 0)",
+  "latency_seconds": 15.66,
+  "input_tokens": 1012,
+  "output_tokens": 865,
+  "timestamp": "2026-02-22T21:26:09Z",
+  "confidence": 95,
+  "error": null
+}

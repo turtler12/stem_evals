@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "6.1220-ps8-1b",
+  "full_response": "To show that HAPPY-FRIEND is in NP, we need to demonstrate that for any yes-instance, there exists a certificate that can be verified in polynomial time.\n\nThe problem instance consists of:\n- \\( n \\) friends,\n- \\( m \\) gifts,\n- For each friend \\( i \\), a set \\( S_i \\subseteq \\{1, \\dots, m\\} \\) that would make them happy if received exactly,\n- An integer \\( h \\).\n\nThe decision problem asks whether it is possible to make at least \\( h \\) friends simultaneously happy. This is equivalent to asking whether there exists a subset \\( I \\subseteq \\{1, \\dots, n\\} \\) with \\( |I| \\geq h \\) such that the sets \\( \\{S_i : i \\in I\\} \\) are pairwise disjoint. This condition ensures that no gift is required by more than one selected friend, allowing each gift to be assigned uniquely.\n\n**Certificate**: A subset \\( I \\) of friends claimed to be made happy.\n\n**Verification Algorithm**:\n1. Check that \\( I \\subseteq \\{1, \\dots, n\\} \\) and that \\( |I| \\geq h \\).\n2. For every distinct pair \\( i, j \\in I \\), verify that \\( S_i \\cap S_j = \\emptyset \\).\n\n**Complexity Analysis**:\n- Step 1 takes \\( O(|I|) \\) time to check membership and \\( O(1) \\) time to compare sizes.\n- Step 2 can be performed efficiently: for each pair \\( (i, j) \\), compute the intersection of \\( S_i \\) and \\( S_j \\). Using a boolean array of size \\( m \\) to mark elements of \\( S_i \\), checking each element of \\( S_j \\) takes \\( O(m) \\) time. There are \\( O(|I|^2) \\) pairs, so total time is \\( O(|I|^2 m) \\). Since \\( |I| \\leq n \\), the verification runs in \\( O(n^2 m) \\) time, which is polynomial in the input size.\n\nThus, HAPPY-FRIEND has a polynomial-time verifier, proving it is in NP.\n\n\\boxed{\\text{HAPPY-FRIEND is in NP because there exists a polynomial-time verifier for yes-instances: the certificate is the subset I of friends, and the verifier checks that |I| \\geq h and that for all distinct i,j \\in I, S_i \\cap S_j = \\emptyset.}}\n\nConfidence: 100%",
+  "extracted_answer": "\\text{HAPPY-FRIEND is in NP because there exists a polynomial-time verifier for yes-instances: the certificate is the subset I of friends, and the verifier checks that |I| \\geq h and that for all distinct i,j \\in I, S_i \\cap S_j = \\emptyset.}",
+  "latency_seconds": 74.03,
+  "input_tokens": 363,
+  "output_tokens": 3276,
+  "timestamp": "2026-02-23T11:08:58Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-midterm1-practice-5c",
+  "full_response": "The velocity of Knight #1's starting line as observed by Knight #2 is found by applying the relativistic velocity transformation. In King Arthur's rest frame (ground frame), the starting line is stationary, and Knight #2 moves with velocity \\(v\\). Transforming to Knight #2's rest frame, the velocity of the starting line is \\(-v\\), indicating it approaches Knight #2 at speed \\(v\\) in the opposite direction of Knight #2's motion.\n\n\\boxed{-v}\n\nConfidence: 95%",
+  "extracted_answer": "-v",
+  "latency_seconds": 78.17,
+  "input_tokens": 847,
+  "output_tokens": 3548,
+  "timestamp": "2026-02-23T10:22:46Z",
+  "confidence": 95,
+  "error": null
+}

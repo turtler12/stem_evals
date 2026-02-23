@@ -1,0 +1,12 @@
+{
+  "model_name": "o3",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "Step-by-step reasoning\n\n1. In special (and general) relativity every vector V in space-time is assigned a \u201csquared length\u2019\u2019 (sometimes called its norm) by the space-time metric g_{ab}.  \n   In inertial (Minkowski) coordinates with signature (\u2212,+,+,+) the squared length of a 4-vector V^a = (V^0, V^1, V^2, V^3) is  \n\n   g_{ab} V^a V^b = \u2212(V^0)^2 + (V^1)^2 + (V^2)^2 + (V^3)^2.  \n\n2. Depending on the sign of this invariant one distinguishes  \n   \u2022 timelike vectors: g_{ab} V^a V^b < 0  \n   \u2022 spacelike vectors: g_{ab} V^a V^b > 0  \n   \u2022 null (or lightlike) vectors: g_{ab} V^a V^b = 0.\n\n3. For the \u201cnull\u2019\u2019 case it is essential that the vector is non-zero; otherwise every zero vector would be null by definition but is excluded by convention.\n\n4. Geometrically a null vector lies on the light cone and is tangent to the world-line of something travelling at the speed of light (e.g. the 4-momentum of a photon).  \n\nPutting this together, the definition is simply:\n\n\\boxed{\\text{A null (or lightlike) vector is a non\u2013zero 4-vector }k^{a}\\text{ whose Lorentzian norm vanishes: }g_{ab}k^{a}k^{b}=0.}\n\nConfidence: 93%",
+  "extracted_answer": "\\text{A null (or lightlike) vector is a non\u2013zero 4-vector }k^{a}\\text{ whose Lorentzian norm vanishes: }g_{ab}k^{a}k^{b}=0.",
+  "latency_seconds": 4.93,
+  "input_tokens": 828,
+  "output_tokens": 510,
+  "timestamp": "2026-02-21T22:17:58Z",
+  "confidence": 93,
+  "error": null
+}

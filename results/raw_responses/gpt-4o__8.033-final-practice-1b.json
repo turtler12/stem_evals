@@ -1,0 +1,12 @@
+{
+  "model_name": "gpt-4o",
+  "question_id": "8.033-final-practice-1b",
+  "full_response": "To define a null vector, we need to understand the concept of 4-vectors and how their magnitudes are defined within the framework of special relativity. In the context of relativity, a 4-vector is an object that transforms following the Lorentz transformations when moving from one inertial frame to another. Common examples include the 4-velocity, 4-momentum, and 4-displacement vectors.\n\n### Steps to Define a Null Vector:\n\n1. **Understanding 4-Vectors**: A 4-vector \\( V^a \\) is given by components \\([V^0, V^1, V^2, V^3]\\), where usually \\( V^0 \\) is the time component (often related to energy or time), and \\( V^1, V^2, V^3 \\) are the spatial components.\n\n2. **Minkowski Metric**: In flat spacetime, the 4-vector magnitudes are defined using the Minkowski metric, \\(\\eta_{ab} = \\text{diag}(-1, +1, +1, +1)\\). This metric is used to compute the \"dot product\" of 4-vectors.\n\n3. **Magnitude of a 4-Vector**: The square of the \"magnitude\" or \"length\" of a 4-vector \\( V^a \\) is given by the contraction \\( V^a V_a \\):\n   \\[\n   V^a V_a = \\eta_{ab} V^a V^b = -(V^0)^2 + (V^1)^2 + (V^2)^2 + (V^3)^2\n   \\]\n\n4. **Null Vector Definition**: A null vector is a 4-vector for which the magnitude is zero:\n   \\[\n   V^a V_a = 0\n   \\]\n   This means that for a null vector \\([V^0, V^1, V^2, V^3]\\),\n   \\[\n   -(V^0)^2 + (V^1)^2 + (V^2)^2 + (V^3)^2 = 0\n   \\]\n   A common example of a null vector is the light-like 4-vector associated with photons in vacuum, where \\( V^0 = |V| \\).\n\n5. **Physical Interpretation**: Null vectors describe paths that light or signals traveling at the speed of light follow in spacetime. They are crucial in defining lightcones in spacetime diagrams.\n\n\\[\n\\boxed{\\text{A null vector is a 4-vector } V^a \\text{ for which } V^a V_a = 0.}\n\\]\n\n**Confidence: 100%**",
+  "extracted_answer": "\\text{A null vector is a 4-vector } V^a \\text{ for which } V^a V_a = 0.",
+  "latency_seconds": 5.77,
+  "input_tokens": 833,
+  "output_tokens": 564,
+  "timestamp": "2026-02-21T22:16:29Z",
+  "confidence": 100,
+  "error": null
+}

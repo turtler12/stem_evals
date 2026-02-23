@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-sonnet-4",
+  "question_id": "8.033-ps9-3",
+  "full_response": "I need to find the 4-momentum of a particle moving in the x\u2081 direction with energy \u03b3m in our rest frame.\n\n**Given information:**\n- Particle has rest mass m\n- Particle is moving away from us in the x\u2081 direction\n- In our rest frame, the particle's energy is \u03b3m\n- Need to express 4-momentum in terms of \u03b3 and m (not v)\n\n**Step 1: Recall the definition of 4-momentum**\n\nThe 4-momentum is defined as:\n$$P^a = mU^a$$\n\nwhere U^a is the 4-velocity and m is the rest mass.\n\nIn component form, the 4-momentum is:\n$$P^a = (E, p^1, p^2, p^3)$$\n\nwhere E is the energy and p^i are the spatial momentum components.\n\n**Step 2: Determine the energy component**\n\nWe're given that in our rest frame, the particle's energy is \u03b3m, so:\n$$P^0 = E = \u03b3m$$\n\n**Step 3: Determine the spatial momentum components**\n\nSince the particle is moving only in the x\u2081 direction, we have:\n- p^2 = 0 (no motion in x\u2082 direction)\n- p^3 = 0 (no motion in x\u2083 direction)\n\nFor the x\u2081 component, I need to find p^1.\n\n**Step 4: Use the invariant mass relation**\n\nThe 4-momentum satisfies the invariant relation:\n$$P^a P_a = -m^2$$\n\nIn our metric signature (-,+,+,+), this becomes:\n$$-E^2 + (p^1)^2 + (p^2)^2 + (p^3)^2 = -m^2$$\n\nSince p^2 = p^3 = 0:\n$$-E^2 + (p^1)^2 = -m^2$$\n\nSubstituting E = \u03b3m:\n$$-(\u03b3m)^2 + (p^1)^2 = -m^2$$\n$$-\u03b3^2m^2 + (p^1)^2 = -m^2$$\n$$(p^1)^2 = \u03b3^2m^2 - m^2$$\n$$(p^1)^2 = m^2(\u03b3^2 - 1)$$\n\nTherefore:\n$$p^1 = \u00b1m\\sqrt{\u03b3^2 - 1}$$\n\n**Step 5: Determine the sign**\n\nSince the particle is moving away from us in the positive x\u2081 direction, the momentum component should be positive:\n$$p^1 = m\\sqrt{\u03b3^2 - 1}$$\n\n**Step 6: Write the complete 4-momentum**\n\nThe 4-momentum in our reference frame is:\n$$P^a = (\u03b3m, m\\sqrt{\u03b3^2 - 1}, 0, 0)$$\n\n**Verification:**\nLet me check this satisfies the invariant relation:\n$$P^a P_a = -(\u03b3m)^2 + (m\\sqrt{\u03b3^2 - 1})^2 + 0^2 + 0^2$$\n$$= -\u03b3^2m^2 + m^2(\u03b3^2 - 1)$$\n$$= -\u03b3^2m^2 + \u03b3^2m^2 - m^2$$\n$$= -m^2$$ \u2713\n\nThis confirms our result is correct.\n\n$$\\boxed{P^a = (\u03b3m, m\\sqrt{\u03b3^2 - 1}, 0, 0)}$$\n\nConfidence: 95%",
+  "extracted_answer": "P^a = (\u03b3m, m\\sqrt{\u03b3^2 - 1}, 0, 0)",
+  "latency_seconds": 18.38,
+  "input_tokens": 1012,
+  "output_tokens": 890,
+  "timestamp": "2026-02-22T20:57:18Z",
+  "confidence": 95,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps2-1a",
+  "full_response": "",
+  "extracted_answer": "[No boxed answer found]",
+  "latency_seconds": 78.13,
+  "input_tokens": 851,
+  "output_tokens": 4096,
+  "timestamp": "2026-02-23T02:58:49Z",
+  "confidence": null,
+  "error": null
+}

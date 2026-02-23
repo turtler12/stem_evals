@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "6.1220-ps7-2c",
+  "full_response": "To find the mixed strategy Nash equilibrium, we compute the conditions under which each player is indifferent between their pure strategies, given the other player's mixed strategy.\n\n**Step 1: First Mate's indifference condition**\nGiven Droberts plays Greedy with probability \\(p\\) and Generous with probability \\(1-p\\), the expected payoffs for the First Mate are:\n- Mutiny: \\(3p + 1(1-p) = 2p + 1\\)\n- No Mutiny: \\(0p + 2(1-p) = 2 - 2p\\)\n\nFor the First Mate to be indifferent (and thus willing to mix), these must be equal:\n\\[\n2p + 1 = 2 - 2p\n\\]\nSolving:\n\\[\n4p = 1 \\quad \\Rightarrow \\quad p = \\frac{1}{4}\n\\]\n\n**Step 2: Droberts' indifference condition**\nGiven the First Mate mutinies with probability \\(q\\) and does not with probability \\(1-q\\), the expected payoffs for Droberts are:\n- Greedy: \\(0q + 3(1-q) = 3 - 3q\\)\n- Generous: \\(2q + 1(1-q) = q + 1\\)\n\nFor Droberts to be indifferent, these must be equal:\n\\[\n3 - 3q = q + 1\n\\]\nSolving:\n\\[\n2 = 4q \\quad \\Rightarrow \\quad q = \\frac{1}{2}\n\\]\n\nThus, the mixed strategy Nash equilibrium occurs when \\(p = \\frac{1}{4}\\) and \\(q = \\frac{1}{2}\\). Verification shows both players are indifferent, and no pure strategy equilibria exist.\n\n\\boxed{p = \\frac{1}{4}, q = \\frac{1}{2}}\n\nConfidence: 100%",
+  "extracted_answer": "p = \\frac{1}{4}, q = \\frac{1}{2}",
+  "latency_seconds": 66.08,
+  "input_tokens": 500,
+  "output_tokens": 3096,
+  "timestamp": "2026-02-23T11:06:42Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-final-practice-9a",
+  "full_response": "The Higgs particle decays into two photons in its rest frame. By conservation of energy and momentum, the photons must be emitted back-to-back with equal energies.\n\nLet \\( m_h \\) be the rest mass of the Higgs, so its rest energy is \\( m_h c^2 \\). In the rest frame, the total momentum is zero. The two photons have 4-momenta \\( P_1 \\) and \\( P_2 \\) satisfying \\( P_1^2 = 0 \\), \\( P_2^2 = 0 \\). Conservation gives:\n\\[\nP_h = P_1 + P_2,\n\\]\nwhere \\( P_h = (m_h c, \\mathbf{0}) \\). Let the photons have energies \\( E_1 \\) and \\( E_2 \\) and momenta \\( \\mathbf{p}_1 \\) and \\( \\mathbf{p}_2 \\). Conservation of momentum requires:\n\\[\n\\mathbf{p}_1 + \\mathbf{p}_2 = 0 \\quad \\Rightarrow \\quad |\\mathbf{p}_1| = |\\mathbf{p}_2|.\n\\]\nFor photons, \\( E = |\\mathbf{p}| c \\), so \\( E_1 = E_2 = E \\). Conservation of energy gives:\n\\[\nE_1 + E_2 = m_h c^2 \\quad \\Rightarrow \\quad 2E = m_h c^2 \\quad \\Rightarrow \\quad E = \\frac{m_h c^2}{2}.\n\\]\nGiven \\( m_h c^2 \\approx 125 \\,\\text{GeV} \\), each photon has energy approximately \\( 62.5 \\,\\text{GeV} \\).\n\n\\boxed{E_{\\gamma} = \\frac{m_h c^2}{2} \\approx 62.5\\,\\text{GeV}}\nConfidence: 100%",
+  "extracted_answer": "E_{\\gamma} = \\frac{m_h c^2}{2} \\approx 62.5\\,\\text{GeV}",
+  "latency_seconds": 25.91,
+  "input_tokens": 925,
+  "output_tokens": 1112,
+  "timestamp": "2026-02-23T10:13:17Z",
+  "confidence": 100,
+  "error": null
+}

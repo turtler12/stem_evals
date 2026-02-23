@@ -1,0 +1,12 @@
+{
+  "model_name": "o4-mini",
+  "question_id": "8.033-final-practice-1a",
+  "full_response": "Below is one clear example where Newtonian gravity contradicts experiment.\n\n1. Newtonian orbital equation  \n   For a test mass in the Newtonian potential \u03a6(r)=\u2013GM/r, one writes the orbit in plane polar coordinates (r,\u03c6).  Using conservation of angular momentum per unit mass, \u2113=r\u00b2(d\u03c6/dt), and energy, one derives the Binet\u2010equation for u(\u03c6)=1/r(\u03c6):  \n   d\u00b2u \n   \u2014\u2014 + u = GM/\u2113\u00b2.  \n    d\u03c6\u00b2  \n\n2. Solution and perihelion behavior  \n   The general solution is  \n   u(\u03c6) = (GM/\u2113\u00b2)[1 + e\u2009cos\u2009\u03c6],  \n   so r(\u03c6) = (\u2113\u00b2/GM)/(1 + e\u2009cos\u2009\u03c6).  This is a fixed ellipse whose major axis does not precess: Newton predicts zero perihelion advance per orbit.\n\n3. Observation for Mercury  \n   Careful astronomical measurements show that Mercury\u2019s perihelion advances by about \u0394\u03c6_obs \u2243 5600\u2033 per century.  After accounting for planetary perturbations, there remains an unexplained extra advance  \n   \u0394\u03c6_extra \u2243 43\u2033 per century.  \n\n4. Newtonian failure  \n   Newtonian theory cannot account for this residual ~43\u2033/century perihelion precession.  In contrast, General Relativity predicts exactly this additional advance:\n   \u0394\u03c6_GR = 6\u03c0\u2009GM/(a(1\u2013e\u00b2)c\u00b2) \u2243 43\u2033/century for Mercury.\n\nFinal concise answer:\n\n\\boxed{Newtonian gravity predicts no perihelion precession of planetary orbits, yet Mercury\u2019s orbit exhibits an extra advance of \u224343\u2033 per century that Newtonian theory cannot explain.}\n\nConfidence: 100%",
+  "extracted_answer": "Newtonian gravity predicts no perihelion precession of planetary orbits, yet Mercury\u2019s orbit exhibits an extra advance of \u224343\u2033 per century that Newtonian theory cannot explain.",
+  "latency_seconds": 5.43,
+  "input_tokens": 837,
+  "output_tokens": 717,
+  "timestamp": "2026-02-21T22:19:54Z",
+  "confidence": 100,
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-midterm2-practice-2e",
+  "full_response": "We aim to show that \\(\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b\\), where \\(\\omega_{(ab)} = \\frac{1}{2}(\\omega_{ab} + \\omega_{ba})\\) is the symmetric part of \\(\\omega_{ab}\\).\n\nDefine the antisymmetric part as \\(\\omega_{[ab]} = \\frac{1}{2}(\\omega_{ab} - \\omega_{ba})\\). Then \\(\\omega_{ab} = \\omega_{(ab)} + \\omega_{[ab]}\\). Substituting,\n\\[\n\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b + \\omega_{[ab]} U^a U^b.\n\\]\nIt suffices to prove that \\(\\omega_{[ab]} U^a U^b = 0\\). Compute:\n\\[\n\\omega_{[ab]} U^a U^b = \\frac{1}{2} (\\omega_{ab} - \\omega_{ba}) U^a U^b = \\frac{1}{2} \\left( \\omega_{ab} U^a U^b - \\omega_{ba} U^a U^b \\right).\n\\]\nIn the second term, relabel dummy indices \\(a \\leftrightarrow b\\):\n\\[\n\\omega_{ba} U^a U^b = \\omega_{ab} U^b U^a = \\omega_{ab} U^a U^b,\n\\]\nsince \\(U^a U^b = U^b U^a\\). Thus,\n\\[\n\\omega_{[ab]} U^a U^b = \\frac{1}{2} \\left( \\omega_{ab} U^a U^b - \\omega_{ab} U^a U^b \\right) = 0.\n\\]\nTherefore, \\(\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b\\).\n\n\\boxed{\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b}\n\nConfidence: 100%",
+  "extracted_answer": "\\omega_{ab} U^a U^b = \\omega_{(ab)} U^a U^b",
+  "latency_seconds": 37.94,
+  "input_tokens": 846,
+  "output_tokens": 1762,
+  "timestamp": "2026-02-23T10:33:36Z",
+  "confidence": 100,
+  "error": null
+}

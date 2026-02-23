@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "6.1220-ps3-3-1a",
+  "full_response": "Allie starts at position 0 on a log that extends from -500 to 500 inches. The crumb is at -20 inches. Allie's strategy is to walk forward (positive direction) to the end at +500 inches, then turn around and walk backward (negative direction) until she reaches the other end at -500 inches or finds the crumb. Since the crumb is at -20, she will not find it on the forward leg, but she will encounter it on the backward leg. Terry knows the crumb's location and goes directly to it.\n\n- Terry's traveled distance: Goes directly from 0 to -20, so distance = 20 inches.\n- Allie's traveled distance:\n  - Forward leg: 0 to 500 inches = 500 inches.\n  - Backward leg: From 500 to -20 inches = |500 - (-20)| = 520 inches.\n  - Total = 500 + 520 = 1020 inches.\n\nRatio of Allie's to Terry's traveled distances = 1020 / 20 = 51.\n\n\\boxed{51}\nConfidence: 100%",
+  "extracted_answer": "51",
+  "latency_seconds": 28.06,
+  "input_tokens": 461,
+  "output_tokens": 1241,
+  "timestamp": "2026-02-23T10:46:27Z",
+  "confidence": 100,
+  "error": null
+}

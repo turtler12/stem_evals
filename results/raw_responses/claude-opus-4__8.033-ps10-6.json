@@ -1,0 +1,12 @@
+{
+  "model_name": "claude-opus-4",
+  "question_id": "8.033-ps10-6",
+  "full_response": "I'll prove that $U^a U_a = -1$ for timelike geodesics.\n\n**Step 1: Define the 4-velocity**\n\nThe 4-velocity is defined as:\n$$U^a = \\frac{dx^a}{d\\tau}$$\n\nwhere $\\tau$ is the proper time and $x^a$ are the spacetime coordinates.\n\n**Step 2: Express the invariant interval**\n\nThe spacetime interval is given by:\n$$ds^2 = g_{ab} dx^a dx^b$$\n\nFor a massive particle following a timelike worldline, we can parameterize the path using proper time $\\tau$. The proper time is defined such that:\n$$d\\tau^2 = -ds^2 = -g_{ab} dx^a dx^b$$\n\nNote: We use the $(-,+,+,+)$ metric signature, which makes $ds^2$ negative for timelike intervals.\n\n**Step 3: Divide by $d\\tau^2$**\n\nDividing both sides of the proper time relation by $d\\tau^2$:\n$$1 = -g_{ab} \\frac{dx^a}{d\\tau} \\frac{dx^b}{d\\tau}$$\n\n**Step 4: Substitute the 4-velocity**\n\nSince $U^a = \\frac{dx^a}{d\\tau}$ and $U^b = \\frac{dx^b}{d\\tau}$, we have:\n$$1 = -g_{ab} U^a U^b$$\n\n**Step 5: Use index notation**\n\nWe can write the contraction $g_{ab} U^a U^b$ as $U_b U^b$ or equivalently $U^a U_a$, where:\n$$U_a = g_{ab} U^b$$\n\nTherefore:\n$$1 = -U^a U_a$$\n\n**Step 6: Rearrange**\n\nThis gives us:\n$$U^a U_a = -1$$\n\n**Verification for geodesics**\n\nFor geodesics specifically, we have the geodesic equation:\n$$U^a \\nabla_a U^b = 0$$\n\nThis condition ensures that the worldline is a geodesic (freely falling), but the normalization $U^a U_a = -1$ holds for any timelike curve parameterized by proper time, not just geodesics. The key is that we're using proper time as the parameter.\n\nThe result $U^a U_a = -1$ is a direct consequence of:\n1. The definition of 4-velocity as the rate of change of position with respect to proper time\n2. The definition of proper time as the invariant interval along the worldline\n3. The timelike nature of the worldline (which ensures proper time is real)\n\n\\boxed{U^a U_a = -1 \\text{ for timelike geodesics (and indeed for any timelike curve parameterized by proper time)}}\n\nConfidence: 100%",
+  "extracted_answer": "U^a U_a = -1 \\text{ for timelike geodesics (and indeed for any timelike curve parameterized by proper time)}",
+  "latency_seconds": 16.38,
+  "input_tokens": 958,
+  "output_tokens": 708,
+  "timestamp": "2026-02-22T21:27:19Z",
+  "confidence": 100,
+  "error": null
+}

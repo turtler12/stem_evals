@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-final-practice-8b",
+  "full_response": "We consider radial null geodesics in a spherically symmetric spacetime, such as the Schwarzschild metric. For radial null geodesics, the metric reduces to:\n\n\\[\nds^2 = -f(r) \\, dt^2 + g(r) \\, dr^2 = 0,\n\\]\n\nwhere \\( f(r) = 1 - \\frac{2GM}{r} \\) and \\( g(r) = \\left(1 - \\frac{2GM}{r}\\right)^{-1} \\) for Schwarzschild. This gives:\n\n\\[\n\\left( \\frac{dt}{dr} \\right)^2 = \\frac{g(r)}{f(r)} = \\left(1 - \\frac{2GM}{r}\\right)^{-2}.\n\\]\n\nThus, \\( \\frac{dt}{dr} = \\pm \\left(1 - \\frac{2GM}{r}\\right)^{-1} \\). We define the tortoise coordinate \\( r_* \\) such that:\n\n\\[\n\\frac{dr_*}{dr} = \\left(1 - \\frac{2GM}{r}\\right)^{-1},\n\\]\n\nso that along null geodesics, \\( \\frac{dt}{dr_*} = \\pm 1 \\). Integrating yields:\n\n\\[\nt = \\pm r_* + \\text{constant}.\n\\]\n\nHence, we have two families of null geodesics: \\( t - r_* = \\text{constant} \\) and \\( t + r_* = \\text{constant} \\). \n\n- For \\( t - r_* = \\text{constant} \\), as \\( r \\) increases, \\( r_* \\) increases, so \\( t \\) must increase to keep the difference constant. This corresponds to light rays moving toward larger \\( r \\) (outgoing).\n- For \\( t + r_* = \\text{constant} \\), as \\( r \\) decreases, \\( r_* \\) decreases, so \\( t \\) increases to keep the sum constant. This corresponds to light rays moving toward smaller \\( r \\) (ingoing).\n\nTherefore, \\( u = t - r_* \\) is constant along outgoing radial null geodesics, and \\( v = t + r_* \\) is constant along ingoing radial null geodesics.\n\n\\boxed{u = t - r_* \\text{ is constant along light rays moving towards larger } r; \\quad v = t + r_* \\text{ is constant along light rays moving towards smaller } r.}\n\nConfidence: 100%",
+  "extracted_answer": "u = t - r_* \\text{ is constant along light rays moving towards larger } r; \\quad v = t + r_* \\text{ is constant along light rays moving towards smaller } r.",
+  "latency_seconds": 40.34,
+  "input_tokens": 874,
+  "output_tokens": 2120,
+  "timestamp": "2026-02-23T04:08:02Z",
+  "confidence": 100,
+  "error": null
+}

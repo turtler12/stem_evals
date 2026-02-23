@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "6.1220-ps7-1c",
+  "full_response": "The total utility is \\(u = u_A + u_B\\). When \\(x_A + x_B > 1\\), \\(u = 0\\). When \\(x_A + x_B \\leq 1\\), \\(u = (x_A + x_B)(1 - x_A - x_B)\\). Let \\(S = x_A + x_B\\). For \\(S \\in [0,1]\\), the total utility is \\(f(S) = S(1 - S)\\). This is a concave quadratic function with maximum at \\(S = 1/2\\), yielding \\(f(1/2) = 1/4\\). Any pair \\((x_A, x_B)\\) with \\(x_A + x_B = 1/2\\) achieves this maximum. A symmetric example is \\(x_A = x_B = 1/4\\).\n\n\\boxed{(x_A, x_B) = \\left(\\frac{1}{4}, \\frac{1}{4}\\right)}\nConfidence: 100%",
+  "extracted_answer": "(x_A, x_B) = \\left(\\frac{1}{4}, \\frac{1}{4}\\right)",
+  "latency_seconds": 45.87,
+  "input_tokens": 440,
+  "output_tokens": 2093,
+  "timestamp": "2026-02-23T11:04:07Z",
+  "confidence": 100,
+  "error": null
+}

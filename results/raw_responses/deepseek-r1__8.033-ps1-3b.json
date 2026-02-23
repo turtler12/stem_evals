@@ -1,0 +1,12 @@
+{
+  "model_name": "deepseek-r1",
+  "question_id": "8.033-ps1-3b",
+  "full_response": "To rotate a point \\((x_0, y_0, z_0)\\) by an angle \\(\\theta\\) about the origin in the \\(xy\\)-plane (i.e., about the \\(z\\)-axis), the coordinates transform as:\n\n\\[\n\\begin{aligned}\nx' &= x_0 \\cos \\theta - y_0 \\sin \\theta, \\\\\ny' &= x_0 \\sin \\theta + y_0 \\cos \\theta, \\\\\nz' &= z_0.\n\\end{aligned}\n\\]\n\nThis transformation can be expressed in matrix form as \\(\\mathbf{X}' = R[\\theta] \\cdot \\mathbf{X}\\), where \\(\\mathbf{X} = (x_0, y_0, z_0)^T\\) and \\(\\mathbf{X}' = (x', y', z')^T\\). The rotation matrix \\(R[\\theta]\\) is:\n\n\\[\nR[\\theta] = \\begin{pmatrix}\n\\cos\\theta & -\\sin\\theta & 0 \\\\\n\\sin\\theta & \\cos\\theta & 0 \\\\\n0 & 0 & 1\n\\end{pmatrix}.\n\\]\n\n\\boxed{R[\\theta] = \\begin{pmatrix} \\cos\\theta & -\\sin\\theta & 0 \\\\ \\sin\\theta & \\cos\\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}}\n\nConfidence: 100%",
+  "extracted_answer": "R[\\theta] = \\begin{pmatrix} \\cos\\theta & -\\sin\\theta & 0 \\\\ \\sin\\theta & \\cos\\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}",
+  "latency_seconds": 26.58,
+  "input_tokens": 922,
+  "output_tokens": 1370,
+  "timestamp": "2026-02-23T02:54:21Z",
+  "confidence": 100,
+  "error": null
+}
