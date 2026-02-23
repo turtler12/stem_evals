@@ -14,6 +14,8 @@ from pathlib import Path
 
 MAX_SCORE = 5
 
+GRADE_CACHE_DIR = Path("results/grades_cache")
+
 
 @dataclass
 class Grade:
@@ -30,6 +32,40 @@ class Grade:
     justification: str
     model_solution: str
     ground_truth: str
+
+
+def _grade_cache_path(model_name: str, question_id: str) -> Path:
+    GRADE_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    return GRADE_CACHE_DIR / f"{model_name}__{question_id}.json"
+
+
+def load_cached_grade(model_name: str, question_id: str) -> Grade | None:
+    """Load a single cached grade if it exists."""
+    path = _grade_cache_path(model_name, question_id)
+    if path.exists():
+        with open(path) as f:
+            data = json.load(f)
+        return Grade(**data)
+    return None
+
+
+def save_grade_cache(grade: Grade):
+    """Save a single grade to the cache."""
+    path = _grade_cache_path(grade.model_name, grade.question_id)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(asdict(grade), f, indent=2)
+
+
+def load_all_cached_grades() -> list[Grade]:
+    """Load all cached grades."""
+    grades = []
+    if GRADE_CACHE_DIR.exists():
+        for p in GRADE_CACHE_DIR.glob("*.json"):
+            with open(p) as f:
+                data = json.load(f)
+            grades.append(Grade(**data))
+    return grades
 
 
 PHYSICS_GRADING_PROMPT = """You are an expert physics grader for MIT's 8.033 (Special and General Relativity) course.
@@ -267,8 +303,14 @@ async def grade_all(
             q = question_map.get(resp.question_id)
             if not q:
                 return None
+
+            # Check cache first
+            cached = load_cached_grade(resp.model_name, resp.question_id)
+            if cached:
+                return cached
+
             if resp.error:
-                return Grade(
+                grade = Grade(
                     question_id=resp.question_id,
                     model_name=resp.model_name,
                     score=0,
@@ -283,8 +325,11 @@ async def grade_all(
                     model_solution="",
                     ground_truth=q["solution_text"],
                 )
+                save_grade_cache(grade)
+                return grade
+
             course = q.get("course", "8.033")
-            return await grade_single(
+            grade = await grade_single(
                 question_id=resp.question_id,
                 question_text=q["question_text"],
                 model_name=resp.model_name,
@@ -293,6 +338,8 @@ async def grade_all(
                 grader_api_key=grader_api_key,
                 course=course,
             )
+            save_grade_cache(grade)
+            return grade
 
     tasks = [grade_with_limit(r) for r in responses]
     grades = await asyncio.gather(*tasks)

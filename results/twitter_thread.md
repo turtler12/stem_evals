@@ -45,7 +45,7 @@ These are the questions where even the best models struggle.
 
 ## Tweet 5 (attach: chart7_cost_accuracy.png)
 
-Cost matters. gemini-2.5-flash costs $0.008 for the full eval.
+Cost matters. o4-mini costs $0.218 for the full eval.
 
 Is the most expensive model worth it? Check the scatter plot.
 
@@ -68,7 +68,7 @@ No single model dominates every dimension.
 
 ## Tweet 8
 
-Full stats: 1 questions, 1940 API calls, 4,840,285 tokens.
+Full stats: 1 questions, 2461 API calls, 6,232,864 tokens.
 
 All questions from MIT's actual course materials.
 

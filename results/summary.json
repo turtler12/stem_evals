@@ -1,8 +1,8 @@
 {
   "total_questions": 1,
   "total_models": 8,
-  "total_api_calls": 1940,
-  "total_tokens_used": 4840285,
+  "total_api_calls": 2461,
+  "total_tokens_used": 6232864,
   "model_stats": {
     "claude-opus-4": {
       "total_score": 0,
@@ -72,11 +72,11 @@
       },
       "avg_rigor": 0.0,
       "avg_correctness": 0.0,
-      "avg_latency_seconds": 18.24,
-      "total_input_tokens": 10990,
-      "total_output_tokens": 11041,
-      "total_cost_usd": 0.0083,
-      "avg_confidence": 100.0,
+      "avg_latency_seconds": 34.44,
+      "total_input_tokens": 219126,
+      "total_output_tokens": 468347,
+      "total_cost_usd": 0.3139,
+      "avg_confidence": 99.9,
       "error_taxonomy": {}
     },
     "gemini-2.5-pro": {
@@ -97,11 +97,11 @@
       },
       "avg_rigor": 0.0,
       "avg_correctness": 0.0,
-      "avg_latency_seconds": 46.75,
-      "total_input_tokens": 21339,
-      "total_output_tokens": 31265,
-      "total_cost_usd": 0.3393,
-      "avg_confidence": 100.0,
+      "avg_latency_seconds": 65.03,
+      "total_input_tokens": 219355,
+      "total_output_tokens": 512129,
+      "total_cost_usd": 5.3955,
+      "avg_confidence": 99.7,
       "error_taxonomy": {}
     },
     "gpt-4.1": {
@@ -172,10 +172,10 @@
       },
       "avg_rigor": 0.0,
       "avg_correctness": 0.0,
-      "avg_latency_seconds": 19.78,
-      "total_input_tokens": 201296,
-      "total_output_tokens": 570203,
-      "total_cost_usd": 4.9642,
+      "avg_latency_seconds": 21.49,
+      "total_input_tokens": 208471,
+      "total_output_tokens": 611285,
+      "total_cost_usd": 5.3072,
       "avg_confidence": 82.2,
       "error_taxonomy": {}
     },

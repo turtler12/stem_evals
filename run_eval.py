@@ -166,7 +166,14 @@ async def run_grading(responses: list[ModelResponse], questions: list[dict]):
 
     # Filter out responses with errors
     valid_responses = [r for r in responses if not r.error]
+
+    # Check how many are already cached
+    from physics_eval.grading import load_cached_grade
+    cached_count = sum(1 for r in valid_responses if load_cached_grade(r.model_name, r.question_id))
+    new_count = len(valid_responses) - cached_count
     console.print(f"[cyan]Grading {len(valid_responses)} responses with Claude Sonnet (0-5 strict rubric)...[/cyan]")
+    if cached_count > 0:
+        console.print(f"[yellow]  {cached_count} already graded (cached), {new_count} new to grade[/yellow]")
 
     grades = await grade_all(valid_responses, questions, api_key, max_concurrent=5)
 
@@ -256,12 +263,19 @@ async def main():
 
     if args.clear_grades:
         grades_path = Path("results/grades.json")
+        cache_dir = Path("results/grades_cache")
+        cleared = False
         if grades_path.exists():
-            # Back up before deleting
             backup = Path("results/grades_v1_backup.json")
             grades_path.rename(backup)
-            print(f"Backed up old grades to {backup} and cleared grades cache.")
-        else:
+            print(f"Backed up old grades to {backup}.")
+            cleared = True
+        if cache_dir.exists():
+            import shutil
+            shutil.rmtree(cache_dir)
+            print("Cleared grades cache directory.")
+            cleared = True
+        if not cleared:
             print("No cached grades to clear.")
         return
 
